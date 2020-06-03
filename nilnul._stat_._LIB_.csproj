@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97A3753E-768C-483C-AC3C-5FF139C0C633}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.stat</RootNamespace>
+    <AssemblyName>nilnul._stat_._LIB_</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="johnHurliman.math._calculus_._LIB_, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\johnHurliman.math._calculus_._LIB_.1.0.1\lib\net46\johnHurliman.math._calculus_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Iridium, Version=1.0.1.32096, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\MathNet.Iridium.1.0.1.32096\lib\net46\MathNet.Iridium.dll</HintPath>
+    </Reference>
+    <Reference Include="miroslavStampar.math._calculus_._LIB_, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\miroslavStampar.math._calculus_._LIB_.1.0.0\lib\net46\miroslavStampar.math._calculus_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.0.7459.26269, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.geometry._planar_._LIB_.1.0.7459.26269\lib\net472\nilnul.geometry._planar_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.math._calculus_._LIB_, Version=1.0.6756.4458, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.math._calculus_._LIB_.1.0.6756.4458\lib\net46\nilnul.math._calculus_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num.real._func_._LIB_, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num.real._func_._LIB_.1.0.2\lib\net46\nilnul.num.real._func_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.0.7319.40844, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num.real._matrix_._LIB_.1.0.7319.40844\lib\net472\nilnul.num.real._matrix_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._integer_._LIB_, Version=1.0.7423.19709, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num._integer_._LIB_.1.0.7423.19709\lib\net472\nilnul.num._integer_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._quotient_._LIB_, Version=1.0.7442.2557, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num._quotient_._LIB_.1.0.7442.2557\lib\net472\nilnul.num._quotient_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._real_._LIB_, Version=2.0.7459.29724, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.num._real_._LIB_.2.0.7459.29724\lib\net472\nilnul.num._real_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.set._discrete_._LIB_, Version=1.0.6873.37823, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul.set._discrete_._LIB_.1.0.6873.37823\lib\net46\nilnul.set._discrete_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._bit_._LIB_, Version=1.0.7455.33559, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._bit_._LIB_.1.0.7455.33559\lib\net472\nilnul._bit_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._character_._LIB_, Version=2.0.7433.34403, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._character_._LIB_.2.0.7433.34403\lib\net472\nilnul._character_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._geometry_._LIB_, Version=1.0.7426.37735, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._geometry_._LIB_.1.0.7426.37735\lib\net472\nilnul._geometry_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._num_._LIB_, Version=1.0.7459.25990, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._num_._LIB_.1.0.7459.25990\lib\net472\nilnul._num_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._num_._LINQ_, Version=1.0.7459.25623, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._num_._LINQ_.1.0.7459.25623\lib\net472\nilnul._num_._LINQ_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._obj_._LIB_, Version=1.0.7455.21898, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._obj_._LIB_.1.0.7455.21898\lib\net472\nilnul._obj_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._rel_._LIB_, Version=1.0.7443.26595, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._rel_._LIB_.1.0.7443.26595\lib\net472\nilnul._rel_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._set_._LIB_, Version=1.0.7442.42317, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._set_._LIB_.1.0.7442.42317\lib\net472\nilnul._set_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._txt_._LIB_, Version=1.0.7448.39303, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\nilnul._txt_._LIB_.1.0.7448.39303\lib\net472\nilnul._txt_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="sergeyBochkanov._alglib_._LIB_, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\sergeyBochkanov._alglib_._LIB_.1.0.1\lib\net46\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="_nilnul_._CFG_, Version=1.0.7455.19770, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\_nilnul_._CFG_.1.0.7455.19770\lib\net46\_nilnul_._CFG_.dll</HintPath>
+    </Reference>
+    <Reference Include="_nilnul_._LIB_, Version=1.0.7455.19774, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\_nilnul_._LIB_.1.0.7455.19774\lib\net472\_nilnul_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="_nilnul_._LINQ_, Version=1.0.7455.19770, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\_nilnul_._LINQ_.1.0.7455.19770\lib\net46\_nilnul_._LINQ_.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dist\Sample.cs" />
+    <Compile Include="dist\sample\Regression.cs" />
+    <Compile Include="dist\sample\regress_\linear_\Simple.cs" />
+    <Compile Include="dist\Variance.cs" />
+    <Compile Include="dist\Deviation.cs" />
+    <Compile Include="dist\Variation.cs" />
+    <Compile Include="dist_\Finite.cs" />
+    <Compile Include="dist_\finite\be_\Definite.cs" />
+    <Compile Include="dist_\finite\Conditional.cs" />
+    <Compile Include="dist_\finite\conditional\Boltzmann.cs" />
+    <Compile Include="dist_\finite\convert_\Purge.cs" />
+    <Compile Include="dist_\finite\convert_\purge\Ed.cs" />
+    <Compile Include="dist_\finite\Entropy.cs" />
+    <Compile Include="dist_\finite\FroBag.cs" />
+    <Compile Include="dist_\finite\FroOccurs.cs" />
+    <Compile Include="dist_\finite_\multivar_\Bival.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\Observation.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Conviction.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Lift.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Portion.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Support.cs" />
+    <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Confidence.cs" />
+    <Compile Include="dist_\_finite\occurs\FroBag.cs" />
+    <Compile Include="dist_\finite_\Occurrence.cs" />
+    <Compile Include="nilnul\geometry.planar\circle\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\disc\point\convert_\UniformSqrt.cs" />
+    <Compile Include="nilnul\geometry.planar\disc\point\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\grad\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\parlgrm\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\point.duo\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\point\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\rect\Sample.cs" />
+    <Compile Include="nilnul\geometry.planar\rect\sample_\PoissonDisc.cs" />
+    <Compile Include="nilnul\geometry.planar\triangle\Sample.cs" />
+    <Compile Include="nilnul\obj\bag\be_\TotalPositive.cs" />
+    <Compile Include="nilnul\obj\bag\be_\totalPositive\Vow.cs" />
+    <Compile Include="nilnul\obj\bag\be_\totalPositive\vow\Ee.cs" />
+    <Compile Include="ProbDbl.cs" />
+    <Compile Include="prob\InfoDiscounted.cs" />
+    <Compile Include="prob\str\be_\TotalOne.cs" />
+    <Compile Include="prob\str\Total.cs" />
+    <Compile Include="prob\str\be_\totalOne\Vow.cs" />
+    <Compile Include="prob_\positive\_info\Uncertainty.cs" />
+    <Compile Include="prob_\positive\Info.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_dist\Evts.cs" />
+    <Compile Include="_dist\Prob.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\sample\regression_\" />
+    <Folder Include="dist_\continuum\" />
+    <Folder Include="dist_\finite\op_\" />
+    <Folder Include="dist_\finite\_entropy\" />
+    <Folder Include="dist_\finite_\bivariate\" />
+    <Folder Include="dist_\finite_\multivar_\bival\observations\" />
+    <Folder Include="dist_\finite_\multivar_\bival\observation\set\" />
+    <Folder Include="nilnul\geometry.planar\point\b\nonZero\" />
+    <Folder Include="nilnul\geometry.planar\triangle\b\" />
+    <Folder Include="nilnul\geometry.planar\triangle\right\" />
+    <Folder Include="nilnul\num\real\func\op_\of_\fit\" />
+    <Folder Include="prob\str\be_\totalOne\vow_\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\nilnul._prob_\_LIB_\nilnul._prob_._LIB_.csproj">
+      <Project>{8087ea58-d733-47fb-a1d6-fd869afd93b9}</Project>
+      <Name>nilnul._prob_._LIB_</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="PostBuildMacros">
+    <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
+      <Output TaskParameter="Assemblies" ItemName="Targets" />
+    </GetAssemblyIdentity>
+    <ItemGroup>
+      <VersionNumber Include="@(Targets->'%(Version)')" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <PostBuildEventDependsOn>
+			$(PostBuildEventDependsOn);
+			PostBuildMacros;
+		</PostBuildEventDependsOn>
+    <PostBuildEvent>
+			if "$(ConfigurationName)"=="Release" (
+			if NOT "$(SolutionDir)"=="$(MSBuildProjectDirectory)\" (
+			xcopy /Y /E /D /I "$(SolutionDir)\packages\*.*" "$(MSBuildProjectDirectory)\packages\"
+			)
+			"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName)
+			"NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source local
+			"NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source wyt
+			) ELSE (
+			if "$(ConfigurationName)"=="Symbols4Debug" (
+			if NOT "$(SolutionDir)" == "$(MSBuildProjectDirectory)\" (
+			xcopy /Y /E /D /I "$(SolutionDir)\packages\*.*" "$(MSBuildProjectDirectory)\packages\"
+			)
+			"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName)
+			"NuGet.exe" push $(TargetName).@(VersionNumber).symbols.nupkg -Source local
+			"NuGet.exe" push $(TargetName).@(VersionNumber).symbols.nupkg -Source wyt
+			) ELSE (
+			echo $(VersionNumber)
+			)
+			)
+
+			rem "NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Symbol -OutputDirectory ..\..
+
+			rem del $(ProjectDir)bin\$(ConfigurationName) \*.nupkg
+
+			rem forfiles /P $(ProjectDir)bin\$(ConfigurationName)\ /m *.nupkg /c "cmd /c "NuGet.exe" push @FILE -Source local"
+			rem forfiles /P $(ProjectDir)bin\$(ConfigurationName)\ /m *.nupkg /c "cmd /c "NuGet.exe" push @FILE -Source wyt"
+		</PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
