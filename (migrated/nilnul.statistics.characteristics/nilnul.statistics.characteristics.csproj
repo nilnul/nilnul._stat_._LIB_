@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{883BFAEE-844D-412A-B684-9FA0E4412A8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.statistics.characteristics</RootNamespace>
+    <AssemblyName>nilnul.statistics.characteristics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CentralMoment.cs" />
+    <Compile Include="characteristics\characteristics\ConditionalExpectation.cs" />
+    <Compile Include="characteristics\characteristics\Correlation.cs" />
+    <Compile Include="characteristics\characteristics\Covariance.cs" />
+    <Compile Include="characteristics\characteristics\CovarianceMatrix.cs" />
+    <Compile Include="characteristics\characteristics\Expectation.cs" />
+    <Compile Include="characteristics\characteristics\Mean.cs" />
+    <Compile Include="characteristics\characteristics\Moment.cs" />
+    <Compile Include="characteristics\characteristics\MomentGeneratiingFunction.cs" />
+    <Compile Include="characteristics\characteristics\SecondMoment.cs" />
+    <Compile Include="characteristics\characteristics\Variance.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %282%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %283%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %284%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %285%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %286%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %287%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation %288%29.cs" />
+    <Compile Include="characteristics\ConditionalExpectation.cs" />
+    <Compile Include="characteristics\Correlation %282%29.cs" />
+    <Compile Include="characteristics\Correlation %283%29.cs" />
+    <Compile Include="characteristics\Correlation %284%29.cs" />
+    <Compile Include="characteristics\Correlation %285%29.cs" />
+    <Compile Include="characteristics\Correlation %286%29.cs" />
+    <Compile Include="characteristics\Correlation %287%29.cs" />
+    <Compile Include="characteristics\Correlation %288%29.cs" />
+    <Compile Include="characteristics\Correlation.cs" />
+    <Compile Include="characteristics\Covariance %282%29.cs" />
+    <Compile Include="characteristics\Covariance %283%29.cs" />
+    <Compile Include="characteristics\Covariance %284%29.cs" />
+    <Compile Include="characteristics\Covariance %285%29.cs" />
+    <Compile Include="characteristics\Covariance %286%29.cs" />
+    <Compile Include="characteristics\Covariance %287%29.cs" />
+    <Compile Include="characteristics\Covariance %288%29.cs" />
+    <Compile Include="characteristics\Covariance.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %282%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %283%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %284%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %285%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %286%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %287%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix %288%29.cs" />
+    <Compile Include="characteristics\CovarianceMatrix.cs" />
+    <Compile Include="characteristics\Expectation %282%29.cs" />
+    <Compile Include="characteristics\Expectation %283%29.cs" />
+    <Compile Include="characteristics\Expectation %284%29.cs" />
+    <Compile Include="characteristics\Expectation %285%29.cs" />
+    <Compile Include="characteristics\Expectation %286%29.cs" />
+    <Compile Include="characteristics\Expectation %287%29.cs" />
+    <Compile Include="characteristics\Expectation %288%29.cs" />
+    <Compile Include="characteristics\Expectation.cs" />
+    <Compile Include="characteristics\Mean %282%29.cs" />
+    <Compile Include="characteristics\Mean %283%29.cs" />
+    <Compile Include="characteristics\Mean %284%29.cs" />
+    <Compile Include="characteristics\Mean %285%29.cs" />
+    <Compile Include="characteristics\Mean %286%29.cs" />
+    <Compile Include="characteristics\Mean %287%29.cs" />
+    <Compile Include="characteristics\Mean %288%29.cs" />
+    <Compile Include="characteristics\Mean.cs" />
+    <Compile Include="characteristics\Moment.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %282%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %283%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %284%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %285%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %286%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %287%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction %288%29.cs" />
+    <Compile Include="characteristics\MomentGeneratiingFunction.cs" />
+    <Compile Include="characteristics\SecondMoment %282%29.cs" />
+    <Compile Include="characteristics\SecondMoment %283%29.cs" />
+    <Compile Include="characteristics\SecondMoment %284%29.cs" />
+    <Compile Include="characteristics\SecondMoment %285%29.cs" />
+    <Compile Include="characteristics\SecondMoment %286%29.cs" />
+    <Compile Include="characteristics\SecondMoment %287%29.cs" />
+    <Compile Include="characteristics\SecondMoment %288%29.cs" />
+    <Compile Include="characteristics\SecondMoment.cs" />
+    <Compile Include="characteristics\Variance %282%29.cs" />
+    <Compile Include="characteristics\Variance %283%29.cs" />
+    <Compile Include="characteristics\Variance %284%29.cs" />
+    <Compile Include="characteristics\Variance %285%29.cs" />
+    <Compile Include="characteristics\Variance %286%29.cs" />
+    <Compile Include="characteristics\Variance %287%29.cs" />
+    <Compile Include="characteristics\Variance %288%29.cs" />
+    <Compile Include="characteristics\Variance.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="ConditionalExpectation %282%29.cs" />
+    <Compile Include="ConditionalExpectation.cs" />
+    <Compile Include="MomentGeneratiingFunction %282%29.cs" />
+    <Compile Include="MomentGeneratiingFunction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
