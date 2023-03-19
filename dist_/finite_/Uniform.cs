@@ -5,7 +5,7 @@ using System.Text;
 
 namespace nilnul.prob.doubleProb.finite
 {
-	public partial class Uniform
+	public  class Uniform
 	{
 		private uint _n;
 

@@ -16,7 +16,7 @@ namespace nilnul.stat
 	/// <remarks>
 	///
 	/// </remarks>
-	interface IDist
+	public interface IDist
 		//:nilnul.collection.family_.field_.sigma.IMeasure
 	{
 	}

@@ -62,6 +62,30 @@
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sym2nuget|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Sym2nuget\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Nuget|AnyCPU'">
+    <OutputPath>bin\Nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <!--<LangVersion>7.3</LangVersion>-->
+    <!--<LangVersion>default</LangVersion>-->
+    <LangVersion>latest</LangVersion>
+    <!--<LangVersion>preview</LangVersion>-->
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
@@ -72,18 +96,11 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="johnHurliman.math._calculus_._LIB_, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\johnHurliman.math._calculus_._LIB_.1.0.1\lib\net46\johnHurliman.math._calculus_._LIB_.dll</HintPath>
-    </Reference>
     <Reference Include="MathNet.Iridium, Version=1.0.1.32096, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\MathNet.Iridium.1.0.1.32096\lib\net46\MathNet.Iridium.dll</HintPath>
     </Reference>
-    <Reference Include="miroslavStampar.math._calculus_._LIB_, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\miroslavStampar.math._calculus_._LIB_.1.0.0\lib\net46\miroslavStampar.math._calculus_._LIB_.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
-      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.collection._axiomatic_._LIB_, Version=1.0.8064.37643, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.collection._axiomatic_._LIB_.1.0.8064.37643\lib\net48\nilnul.collection._axiomatic_._LIB_.dll</HintPath>
@@ -95,10 +112,10 @@
       <HintPath>packages\nilnul.geometry._planar_._LIB_.1.1.220815.32404\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.math._calculus_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.math._calculus_._LIB_.1.1.220729.125019\lib\net48\nilnul.math._calculus_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.math._calculus_._LIB_.1.1.230316.164423-sym\lib\net481\nilnul.math._calculus_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.220725.160835\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.230316.155248-sym\lib\net481\nilnul.num.real._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num.real._matrix_._LIB_.1.1.220814.74253\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
@@ -107,31 +124,31 @@
       <HintPath>packages\nilnul.num._complex_._LIB_.1.1.220731.183914\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.220905.105721\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.230206.161540-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul.num._quotient_._LIB_.1.1.220926.131208\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.230307.155454-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._real_._LIB_.2.1.220818.53104\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._real_._LIB_.2.1.230129.45925-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._bit_._LIB_.1.1.220822.32314\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._bit_._LIB_.1.1.230227.141902-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._character_._LIB_, Version=2.1.8272.35271, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._character_._LIB_.2.1.220825.113426\lib\net481\nilnul._character_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\_WEB_(Git\packages\nilnul._character_._LIB_.2.1.230317.145952-sym\lib\net481\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.1.221024.140342\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._fs_._LIB_.2.1.230118.82646-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._num_._LIB_.1.1.220826.15831\lib\net481\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LIB_.1.1.230211.165852-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._num_._LINQ_.1.1.220825.155237\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LINQ_.1.1.230204.111417-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._obj_._LIB_.1.2.221018.12034\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._obj_._LIB_.1.2.230219.75946-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._rel_._LIB_.1.2.220817.152548\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
@@ -140,20 +157,17 @@
       <HintPath>packages\nilnul._set_._LIB_.1.1.220905.140119\lib\net481\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._time_._LIB_.1.1.221006.142535\lib\net481\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._time_._LIB_.1.1.221120.114651\lib\net481\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._txt_._LIB_.1.1.220908.84230\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._txt_._LIB_.1.1.230107.122025-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._xml_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._xml_._LIB_.1.1.220731.165341\lib\net48\nilnul._xml_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._xml_._LIB_.1.1.221119.43115\lib\net481\nilnul._xml_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.7938.39007, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.7938.39007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
 </Reference>-->
-    <Reference Include="sergeyBochkanov._alglib_._LIB_, Version=1.0.7863.31102, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\sergeyBochkanov._alglib_._LIB_.1.0.7863.31102\lib\net48\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -172,23 +186,89 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LIB_.1.1.220819.143251\lib\net481\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LIB_.1.1.230219.83348-sym\lib\net481\_nilnul_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LINQ_.1.1.220819.143032\lib\net481\_nilnul_._LINQ_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LINQ_.1.1.230219.73454-sym\lib\net481\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="%28migrated\be_\Bimodal.cs" />
-    <Compile Include="%28migrated\nilnul.geometry.cubic\globe\point\DistanceFroBound_Squared.cs" />
-    <Compile Include="%28migrated\nilnul.prob_\dist\!inbox\DistributionI.cs" />
-    <Compile Include="%28migrated\nilnul.prob_\dist\ConjugatePrior.cs" />
-    <Compile Include="%28migrated\nilnul.prob_\dist\DistI.cs" />
-    <Compile Include="%28migrated\nilnul.prob_\dist\Pdf.cs" />
+    <Compile Include="dist\be_\Bimodal.cs" />
+    <Compile Include="dist\IFit.cs" />
+    <Compile Include="dist\ISample.cs" />
+    <Compile Include="dist\ITest.cs" />
+    <Compile Include="dist\survey\IIndividuals.cs" />
+    <Compile Include="dist\survey\IOrdered.cs" />
+    <Compile Include="dist\survey\ISize.cs" />
+    <Compile Include="dist\survey\stream_\Bigger.cs" />
+    <Compile Include="dist\survey\stream_\bigger\ITerm.cs" />
+    <Compile Include="dist\survey\stream_\bigger\ITerminal.cs" />
+    <Compile Include="dist\survey\stream_\bigger\terminal\IFit.cs" />
+    <Compile Include="dist\survey\stream_\bigger\term\IFit.cs" />
+    <Compile Include="dist\survey\stream_\IIndependent.cs" />
+    <Compile Include="dist\survey\str\ITerm.cs" />
+    <Compile Include="dist\survey\str_\started\ITerm.cs" />
+    <Compile Include="dist\survey\str_\started\ITerminal.cs" />
+    <Compile Include="dist\survey_\IIndependent.cs" />
+    <Compile Include="dist\survey_\indep\stream_\append\terminal\IFit.cs" />
+    <Compile Include="dist\survey_\indep\stream_\IAppend.cs" />
+    <Compile Include="dist_\borel\IDivergence.cs" />
+    <Compile Include="dist_\borel\IMoment.cs" />
+    <Compile Include="dist_\borel\IVariance.cs" />
+    <Compile Include="dist_\borel\of_\IUnary.cs" />
+    <Compile Include="dist_\borel\of_\unary_\_DriftX.cs" />
+    <Compile Include="dist_\borel\of_\unary_\_VarianceX.cs" />
+    <Compile Include="dist_\borel\sample\of_\unary_\_NeutralizX.cs" />
+    <Compile Include="dist_\borel\sample\of_\unary_\Std.cs" />
+    <Compile Include="dist_\borel\sample\_DriftX.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\IFit.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\_fit\theorem_\clt_\IIid.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\_fit\theorem_\clt_\ILindeberg.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\_fit\theorem_\clt_\ILyapunov.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\_fit\theorem_\ICentralLimitTheorem.cs" />
+    <Compile Include="dist_\borel\survey_\indep\stream_\IAppend.cs" />
+    <Compile Include="dist_\borel\variance\ISqrt.cs" />
+    <Compile Include="dist_\borel_\beta_\IConcaveNonstrict.cs" />
+    <Compile Include="dist_\borel_\beta_\IConvexNonstrict.cs" />
+    <Compile Include="dist_\borel_\beta_\ISpanned.cs" />
+    <Compile Include="dist_\borel_\beta_\IStd.cs" />
+    <Compile Include="dist_\borel_\IBeta.cs" />
+    <Compile Include="dist_\borel_\IBoundaried.cs" />
+    <Compile Include="dist_\borel_\IUniform.cs" />
+    <Compile Include="dist_\borel_\normal\IFit.cs" />
+    <Compile Include="dist_\borel_\normal\ITest.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\IKolmogorovSmirnov.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\parsUnknown_\Ililliefors.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\parsUnknown_\IShapiroWilk.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\parsUnknown_\_LillieforsX.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\visual_\IHistogram.cs" />
+    <Compile Include="dist_\borel_\normal\fit_\visual_\IQuantile9quantile.cs" />
+    <Compile Include="dist_\borel_\normal_\IStd.cs" />
+    <Compile Include="dist_\borel_\normal_\_StdX.cs" />
+    <Compile Include="dist_\finite_\IDefinite.cs" />
+    <Compile Include="dist_\finite_\IUniform.cs" />
+    <Compile Include="dist_\IFinite.cs" />
+    <Compile Include="dist_\IMean1variance.cs" />
+    <Compile Include="dist_\IUniform.cs" />
+    <Compile Include="dist_\varianced\survey\stream\terminal\IFit.cs" />
+    <Compile Include="dist_\varianced\survey\stream_\bigger\terminal\IFit.cs" />
+    <Compile Include="dist_\varianced\survey_\IIndependent.cs" />
+    <Compile Include="dist_\varianced\survey_\indep\stream_\append\terminal\IFit.cs" />
+    <Compile Include="dist_\varianced\survey_\indep\stream_\IAppend.cs" />
+    <Compile Include="nilnul0\IStat.cs" />
+    <Compile Include="nilnul0\geometry\planar\point\str_\plural_\funcish\LinearRegression.cs" />
+    <Compile Include="nilnul0\geometry\planar\point\str_\plural_\IFuncish.cs" />
+    <Compile Include="nilnul0\geometry\stereo\globe\point\DistanceFroBound_Squared.cs" />
+    <Compile Include="DistributionI.cs" />
+    <Compile Include="dist\dist\ConjugatePrior.cs" />
+    <Compile Include="DistI.cs" />
+    <Compile Include="dist\Pdf.cs" />
     <Compile Include="Dist.cs" />
     <Compile Include="dist\co\Conditional.cs" />
-    <Compile Include="dist_\borel\samples_\sumGiven_\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel\samples_\avgGiven_\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\avg_\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\IAim.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\IConstrained.cs" />
     <Compile Include="dist_\borel_\Cauchy.cs" />
     <Compile Include="dist_\borel_\Empirical4dbl.cs" />
     <Compile Include="dist_\finite_\BinomialDbl.cs" />
@@ -200,7 +280,13 @@
     <Compile Include="dist_\finite_\egal\uncertainty\Measure.cs" />
     <Compile Include="dist_\finite_\egal\uncertainty\measure_\Bit.cs" />
     <Compile Include="dist_\finite_\%28retiring\_GuidX.cs" />
+    <Compile Include="nilnul0\num\real\str_\started\_VarianceX.cs" />
     <Compile Include="nilnul0\txt\hash\Dist.cs" />
+    <Compile Include="theorem_\partitional_\Dich.cs" />
+    <Compile Include="theorem_\Partitions.cs" />
+    <Compile Include="theorem_\Bayes.cs" />
+    <Compile Include="_dist\event_\BasicEventI.cs" />
+    <Compile Include="_dist\IEvent.cs" />
     <Compile Include="_dist\Prob%28r.cs" />
     <Compile Include="_dist\Probs.cs" />
     <Compile Include="_dist\probs\be\Vow.cs" />
@@ -234,37 +320,39 @@
     <Compile Include="_dist\prob~\!retiring\Prob.cs" />
     <Compile Include="_dist\prob~\!retiring\ProbabilityInRational.cs" />
     <Compile Include="_dist\prob~\!retiring\ProbabilityInRational1.cs" />
-    <Compile Include="_dist\prob~\!retiring\RandomX.cs" />
+    <Compile Include="dist_\borel_\uniform_\RandomX.cs" />
     <Compile Include="_dist\prob~\!retiring\Rational.cs" />
-    <Compile Include="%28migrated\nilnul\ProbI.cs" />
-    <Compile Include="%28migrated\nilnul\_prob_\%28\EventSpaceI.cs" />
-    <Compile Include="%28migrated\nilnul\_prob_\%28\SampleSpaceI.cs" />
-    <Compile Include="%28migrated\nilnul\_prob_\EvtsI.cs" />
-    <Compile Include="%28migrated\nilnul\_prob_\MeasureI.cs" />
+    <Compile Include="_dist\ProbI.cs" />
+    <Compile Include="_dist\_event\IOmegaInLittle.cs" />
+    <Compile Include="_dist\_event\IPopulation.cs" />
+    <Compile Include="_dist\_prob_\%28\EventSpaceI.cs" />
+    <Compile Include="_dist\_prob_\%28\SampleSpaceI.cs" />
+    <Compile Include="_dist\_prob_\EvtsI.cs" />
+    <Compile Include="_dist\_prob_\MeasureI.cs" />
     <Compile Include="%28migrated\ObservationI.cs" />
-    <Compile Include="%28migrated\rnd\RandomX.cs" />
-    <Compile Include="%28migrated\rnd\Rnd.cs" />
-    <Compile Include="%28migrated\rnd\rnd\Slider.cs" />
-    <Compile Include="%28migrated\rnd\_rnd\RandomOrg.cs" />
+    <Compile Include="dist_\borel_\uniform_\rnd_\NewFolder1\RandomX.cs" />
+    <Compile Include="dist_\borel_\uniform_\rnd_\NewFolder1\Rnd.cs" />
+    <Compile Include="dist_\borel_\uniform_\rnd\Slider.cs" />
+    <Compile Include="dist_\borel_\uniform_\_rnd\RandomOrg.cs" />
     <Compile Include="%28migrated\SampleI.cs" />
-    <Compile Include="%28migrated\sample\StatisticI.cs" />
-    <Compile Include="%28migrated\sample\statistic\EstimandI.cs" />
-    <Compile Include="%28migrated\x\app\select\Generator.cs" />
-    <Compile Include="%28migrated\x\app\select\WeightedChoose.cs" />
-    <Compile Include="%28migrated\x\_randomize\BoxMuller.cs" />
-    <Compile Include="%28migrated\_dist\Combo.cs" />
+    <Compile Include="StatisticI.cs" />
+    <Compile Include="dist\EstimandI.cs" />
+    <Compile Include="dist\individual_\select\Generator.cs" />
+    <Compile Include="dist\individual_\select\WeightedChoose.cs" />
+    <Compile Include="dist_\borel_\uniform_\_rnd\BoxMuller.cs" />
+    <Compile Include="_dist\evtProb_\Combo.cs" />
     <Compile Include="%28migrated\{statistics\confidenceInterval\varianceKnown\TwoSided.cs" />
-    <Compile Include="%28migrated\{statistics\Kendall.cs" />
+    <Compile Include="nilnul0\num\real_\nonneg\matrix\Kendall.cs" />
     <Compile Include="%28migrated\{statistics\Zscore.cs" />
-    <Compile Include="dist\Sample.cs" />
-    <Compile Include="dist\sample\Regression.cs" />
-    <Compile Include="dist\sample\regress_\linear_\Simple.cs" />
+    <Compile Include="dist\ISurvey.cs" />
+    <Compile Include="dist\survey\Regression.cs" />
+    <Compile Include="dist\survey\regress_\linear_\Simple.cs" />
     <Compile Include="dist\Variance.cs" />
     <Compile Include="dist\Deviation.cs" />
     <Compile Include="dist\Variation.cs" />
-    <Compile Include="dist_\borel_\beta_\Std.cs" />
-    <Compile Include="dist_\borel_\_beta\NewFolder1\BetaGeneralized - Copy.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\Pert - Copy.cs" />
+    <Compile Include="dist_\borel_\beta_\Std4dbl.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\NewFolder1\BetaGeneralized - Copy.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\Pert - Copy.cs" />
     <Compile Include="dist_\discrete_\RecurI.cs" />
     <Compile Include="dist_\discrete_\recur\DiscreteUniform.cs" />
     <Compile Include="dist_\discrete_\recur\eg\countable\Poisson.cs" />
@@ -313,9 +401,9 @@
     <Compile Include="dist_\discrete_\recur\rational\BagNonEmpty.cs" />
     <Compile Include="dist_\discrete_\recur_\Poisson.cs" />
     <Compile Include="dist_\discrete_\_recur\Geometric_probDouble.cs" />
-    <Compile Include="dist_\borel\sample_\constained_\avgGiven\RandomizeDataForGivenAverage.cs" />
-    <Compile Include="dist_\borel\sample_\constained_\sumGiven\_boundSum\_algos\!retiring\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel\sample_\constained_\sumGiven\_boundSum\_algos\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\avg_\avgGiven\RandomizeDataForGivenAverage.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\_algos\!retiring\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\_algos\RandomizeNormalize.cs" />
     <Compile Include="dist_\borel_\%28retiring\ContinuumI.cs" />
     <Compile Include="dist_\borel_\Chi.cs" />
     <Compile Include="dist_\borel_\ContinuumI.cs" />
@@ -327,9 +415,9 @@
     <Compile Include="dist_\borel_\normal\Cdf.cs" />
     <Compile Include="dist_\borel_\normal\Pdf.cs" />
     <Compile Include="dist_\borel\SampleI.cs" />
-    <Compile Include="dist_\borel\sample_\EmpiricalI.cs" />
-    <Compile Include="dist_\borel\sample_\KdeI.cs" />
-    <Compile Include="dist_\borel\sample_\_kde\KernelFunc.cs" />
+    <Compile Include="dist_\borel\survey_\EmpiricalI.cs" />
+    <Compile Include="dist_\borel\survey_\KdeI.cs" />
+    <Compile Include="dist_\borel\survey_\_kde\KernelFunc.cs" />
     <Compile Include="dist_\borel_\Bates.cs" />
     <Compile Include="dist_\borel_\Descent.cs" />
     <Compile Include="dist_\borel_\Exp.cs" />
@@ -342,7 +430,7 @@
     <Compile Include="dist_\borel_\UniformEnclosedZeroOne.cs" />
     <Compile Include="dist_\borel_\uniform\duo\zip_\Distance.cs" />
     <Compile Include="dist_\borel_\_exp\Exp.cs" />
-    <Compile Include="dist_\Borel.cs" />
+    <Compile Include="dist_\IBorel.cs" />
     <Compile Include="dist_\borel\duo\Correlation.cs" />
     <Compile Include="dist_\borel\duo\correlation_\nil\VsIndependenc.cs" />
     <Compile Include="dist_\borel_\EvenCoin.cs" />
@@ -351,10 +439,10 @@
     <Compile Include="dist_\borel_\normal\Sample.cs" />
     <Compile Include="dist_\borel_\uniform\sample_\Generator.cs" />
     <Compile Include="dist_\borel_\uniform_\EvenBetZeroOne.cs" />
-    <Compile Include="dist_\borel_\uniform_\unital\sample_\Approach.cs" />
-    <Compile Include="dist_\borel_\uniform_\unital\sample_\_real\_approach\%28rndStreamPositionSlider\Series.cs" />
-    <Compile Include="dist_\borel_\uniform_\unital\sample_\_real\_approach\RndStreamWeightSlider.cs" />
-    <Compile Include="dist_\borel_\uniform_\unital\sample_\_real\_approach\SliderOfAugments.cs" />
+    <Compile Include="dist_\borel_\uniform_\unial\sample_\Approach.cs" />
+    <Compile Include="dist_\borel_\uniform_\unial\sample_\_real\_approach\%28rndStreamPositionSlider\Series.cs" />
+    <Compile Include="dist_\borel_\uniform_\unial\sample_\_real\_approach\RndStreamWeightSlider.cs" />
+    <Compile Include="dist_\borel_\uniform_\unial\sample_\_real\_approach\SliderOfAugments.cs" />
     <Compile Include="dist_\borel_\_continuum\DistributionI.cs" />
     <Compile Include="dist_\borel~\doubleSample\CdfAndInverseI.cs" />
     <Compile Include="dist_\borel~\doubleSample\CdfI.cs" />
@@ -363,17 +451,17 @@
     <Compile Include="dist_\borel~\doubleSample\DistributionI.cs" />
     <Compile Include="dist_\borel~\doubleSample\distributions\equiv\Equiv.cs" />
     <Compile Include="dist_\borel~\doubleSample\PdfI.cs" />
-    <Compile Include="dist_\borel_\beta_\Beta2.cs" />
-    <Compile Include="dist_\borel_\beta~\BetaBinomial.cs" />
-    <Compile Include="dist_\borel_\_beta\BetaGeneralized.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\Beta3.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\beta\Beta2.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\beta\Beta3.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\beta\BetaGeneralized.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\beta\SpanBeta.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\beta\SpanBetaFirstType.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\SpanBeta.cs" />
-    <Compile Include="dist_\borel_\beta~\beta\SpanBetaFirstType.cs" />
+    <Compile Include="dist_\borel_\beta_\std_\NewFolder1\NewFolder2\Beta2.cs" />
+    <Compile Include="dist_\borel_\IBetaBinomial.cs" />
+    <Compile Include="dist_\borel_\beta_\Spanned.cs" />
+    <Compile Include="dist_\borel_\beta_\std_\NewFolder1\%28dbl\Beta3.cs" />
+    <Compile Include="dist_\borel_\beta_\std_\NewFolder1\%28dbl\Beta2.cs" />
+    <Compile Include="dist_\borel_\beta_\std_\Beta3.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\NewFolder1\BetaGeneralized.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\%28dbl\SpanBeta.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\concave_\NewFolder1\SpanBetaFirstType.cs" />
+    <Compile Include="dist_\borel_\beta_\%28rational\SpanBeta.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\concave_\rational_\SpanBetaFirstType.cs" />
     <Compile Include="_dist\evtProb_\combo\EvtInt_ProbQ.cs" />
     <Compile Include="_dist\evtProb_\combo\Evt_ProbQ.cs" />
     <Compile Include="_dist\evtProb_\combo\IntDouble.cs" />
@@ -382,20 +470,19 @@
     <Compile Include="_dist\prob_\ProbDbl.cs" />
     <Compile Include="_dist\prob_\quotient_\Probs.cs" />
     <Compile Include="_evt_\SamplePointI.cs" />
-    <None Include="dist_\borel_\beta~\Beta_double.cs" />
     <Compile Include="dist_\borel_\eg\Cauchy.cs" />
     <Compile Include="dist_\borel_\eg\NormalDistribution %285%29.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\Pert.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\MinModMax.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\MinModMaxLambda.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\MinModMax.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\MinModMaxLambda.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\Pert_miu.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\Pert_mu2.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\Riskamp.PertCache.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\RiskampX.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\pert\WolframX.cs" />
-    <Compile Include="dist_\borel_\_beta\generalized_\pert\WolframX.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\Pert.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\MinModMax.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\MinModMaxLambda.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\MinModMax.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\MinModMaxLambda.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\Pert_miu.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\Pert_mu2.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\Riskamp.PertCache.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\RiskampX.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\pert\WolframX.cs" />
+    <Compile Include="dist_\borel_\beta_\spanned_\pert\WolframX.cs" />
     <Compile Include="dist_\borel_\eg\TriangleDistribution.cs" />
     <Compile Include="dist_\borel_\_continuum\op\Rand2Norm_BoxMullerTransform.cs" />
     <Compile Include="dist_\borel_\_continuum\PdfI.cs" />
@@ -533,16 +620,21 @@
     <Compile Include="_dist\IProb.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="%28migrated\nilnul.geometry.cubic\globe\point\NewFolder1\" />
-    <Folder Include="%28migrated\nilnul._prob\_prob.event\event_\" />
-    <Folder Include="%28migrated\rnd\rnd\slider\" />
-    <Folder Include="dist_\borel\sample_\sample_\" />
+    <Folder Include="dist\!inbox\" />
+    <Folder Include="dist\sample\" />
+    <Folder Include="dist\survey\stream_\indep_\" />
+    <Folder Include="dist_\borel_\beta_\%28dbl\" />
+    <Folder Include="dist_\borel_\beta_\spanned_\convex_\" />
     <Folder Include="dist_\borel_\cdf\inverse\" />
     <Folder Include="dist_\borel_\cdf_\%28retiring\NewFolder1\" />
     <Folder Include="dist_\borel_\empirical\" />
     <Folder Include="dist_\borel_\rv\co_\" />
     <Folder Include="dist_\borel_\uniform_\%28retiring\" />
-    <Folder Include="dist_\borel_\uniform_\unital\sample_\%28retiring\" />
+    <Folder Include="dist_\borel_\uniform_\rnd\rnd\" />
+    <Folder Include="dist_\borel_\uniform_\rnd\slider\" />
+    <Folder Include="dist_\borel_\uniform_\unial\sample_\%28retiring\" />
+    <Folder Include="dist_\borel_\uniform_\_randomize\" />
+    <Folder Include="dist_\borel_\_beta\" />
     <Folder Include="dist_\borel_\_cdf\" />
     <Folder Include="dist_\borel_\_continuum\theorems\" />
     <Folder Include="dist_\discrete_\recur\rational\event_\" />
@@ -556,20 +648,28 @@
     <Folder Include="dist_\finite_\multivar_\bival\observations\" />
     <Folder Include="dist_\finite_\multivar_\bival\observation\set\" />
     <Folder Include="dist_\_finite\probs\" />
+    <Folder Include="nilnul0\geometry\planar\points_\" />
     <Folder Include="nilnul0\geometry\planar\point\b\nonZero\" />
+    <Folder Include="nilnul0\geometry\planar\point\str_\plural\" />
     <Folder Include="nilnul0\geometry\planar\triangle\b\" />
     <Folder Include="nilnul0\geometry\planar\triangle\right\" />
+    <Folder Include="nilnul0\geometry\stereo\globe\point\NewFolder1\" />
     <Folder Include="nilnul0\num\real\func\op_\of_\fit\" />
+    <Folder Include="nilnul0\num\real\matrix\" />
     <Folder Include="prob_\" />
     <Folder Include="_dist\probs_\" />
     <Folder Include="_dist\prob\str\be_\totalOne\vow_\" />
     <Folder Include="_dist\prob\str\_vow_\" />
     <Folder Include="_dist\prob~\%28measure\measure\" />
     <Folder Include="_dist\prob~\%28measure\_measure\" />
+    <Folder Include="_dist\_prob.event\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
@@ -615,6 +715,11 @@ if $(ConfigurationName) == Release (
 	if  $(ConfigurationName)==Dev2nuget (
 		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-dev
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-dev.nupkg -SkipDuplicate -Source nuget.org
+	)
+	if  $(ConfigurationName)==Sym2nuget (
+		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-sym
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source nuget.org
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source my
 	)
 )</PostBuildEvent>
   </PropertyGroup>

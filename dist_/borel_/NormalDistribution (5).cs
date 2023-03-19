@@ -26,23 +26,36 @@ namespace nilnul.stat.dist_.borel_
 
 		public static double Density(double x,double expectation,double variance){
 
-			return
-				1
-				/
-				Math.Pow(2 * Math.PI * variance, .5)
-
-				*
-
-				Math.Exp(
-					-
-					.5
-					*
-					Math.Pow(
-						(x - expectation) / variance
-						,
-						2
-					)
+			//var varianceDouble = 2 * variance;
+			return	Math.Exp(
+					-nilnul.num.real.op_.unary_.Square.Singleton.op(
+						
+							x-expectation
+						
+					)/(2*variance)
 				)
+				/
+				Math.Sqrt(
+					nilnul.num.real_._Tau4dblX.FULL * variance
+				)
+			;
+		}
+
+		public static double Density_2divergence(double x,double expectation,double divergence){
+
+
+			return	Math.Exp(
+					-nilnul.num.real.op_.unary_.Square.Singleton.op(
+						borel.sample.of_.unary_._StdX._Std_1mean_2divergence(
+							x,expectation,divergence
+						)
+					)/2
+				)
+				/
+				(Math.Sqrt(
+					nilnul.num.real_._Tau4dblX.FULL
+					//2 * Math.PI
+				)* divergence)
 			;
 		}
 

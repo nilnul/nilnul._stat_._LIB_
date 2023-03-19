@@ -9,7 +9,7 @@ namespace nilnul.prob.doubleProb
 	/// This is useful because it puts deterministic variables and random variables in the same formalism.
 	/// </summary>
 	/// <typeparam name="T"></typeparam>
-	public partial class Degenerate<T>
+	public  class Degenerate<T>
 
 	
 		

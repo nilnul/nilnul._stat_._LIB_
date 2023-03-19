@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.prob_.continuum
+namespace nilnul.stat.dist_.borel
 {
 	/// <summary>
 	/// to get a finite measure: samples with frequency, we need to draw at least one sample.

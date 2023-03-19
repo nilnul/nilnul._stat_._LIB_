@@ -10,6 +10,7 @@ namespace nilnul.stat._dist
 	/// a measure for each.  the measure is normalized into [0,1]
 	/// </summary>
 	public interface  IProb
+		:nilnul.collection._measure_.MeterI
 	{
 	}
 }
