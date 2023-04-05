@@ -6,7 +6,7 @@ using System.Text;
 
 namespace nilnul.prob.finite
 {
-	public partial class RationalProb<T,TEq>
+	public  class RationalProb<T,TEq>
 		where TEq:IEqualityComparer<T>,new()
 	{
 		private List<T> _samples;

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nilnul.statistics.distributions
+namespace nilnul.stat.dist_.finite_
 {
-	interface NegativeBinomialDistributionI
+	public interface NegativeBinomialDistributionI
+		:IFinite
 	{
+
 	}
 }

@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.prob_
+namespace nilnul.stat.dist_.discrete_
 {
-	/// <summary>
 	/// the measured set is recursion
+	/// <summary>
+	/// infinite;
 	/// </summary>
-	public interface RecurI
+	/// 
+	public interface RecurI:IDiscrete
 	{
 	}
 }

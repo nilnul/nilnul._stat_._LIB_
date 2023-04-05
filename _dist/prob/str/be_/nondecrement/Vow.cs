@@ -23,7 +23,7 @@ namespace nilnul.stat._dist.prob.str.be_.nondecrement
 			nilnul.bit.vow_.true_.Unacceptable.Singleton.vow(_NonDecreaseX.Be(measures));
 		}
 
-		static public void Vow(IEnumerable<ProbQuotient> measures)
+		static public void Vow(IEnumerable<Prob8frac> measures)
 		{
 
 			nilnul.bit.vow_.true_.Unacceptable.Singleton.vow(_NonDecreaseX.Be(measures));

@@ -29,7 +29,7 @@ namespace nilnul.stat._dist.prob.be_.one
 		}
 
 
-		static public void Vow(ProbQuotient measures)
+		static public void Vow(Prob8frac measures)
 		{
 
 			nilnul.bit.vow_.true_.Unacceptable.Singleton.vow(_OneX.Be(measures));

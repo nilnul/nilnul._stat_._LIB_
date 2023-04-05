@@ -1,32 +1,59 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace nilnul.stat.dist_.finite_
 {
-	/// <summary>
-	/// identitcal probability for each basic event.
-	/// </summary>
-	/// <remarks>
-	/// nomenclature:
-	///	alias:
-	///	
-	///		egal
-	///			german
-	///				all the same
-	///			egalitarian
-	///				french
-	///					equilitarism
-	///						equal society
-	///			obsolete:
-	///				Equal; impartial.
-	///		uniform
-	///			reserved for berel
-	///		impartial
-	/// </remarks>
-	public interface IEgal
+	public class Egal<TEvent>
+		:
+		Finite4dblI<TEvent>
+		,
+		IEgal
 	{
+		private HashSet<TEvent> _samples;
+
+		public HashSet<TEvent> samples
+		{
+			get { return _samples; }
+			set { _samples = value; }
+		}
+
+		public Egal(
+
+			HashSet<TEvent> samples0
+
+		)
+		{
+			if (samples0.Any())
+			{
+				this._samples = samples0;
+				_listCached = _samples.ToArray();
+				return;
+			}
+			throw new finite_.xpn_.SamplesNone($"samples cannot be empty;");
+
+
+		}
+
+		TEvent[] _listCached;
+		public TEvent sample()
+		{
+			 double x= 1d / _samples.Count;
+
+			var index=(int) Math.Floor(  borel_.pdf_.uniform_._Preportion4dblX.Sample() / x );
+			if (index  >=_samples.Count) // account for precision issue;
+			{
+				return _listCached.Last();
+			}
+			return _listCached[index];
+
+			//throw new NotImplementedException();
+		}
+
+		public double pmf(TEvent sample)
+		{
+			return 1d / _samples.Count;
+			//throw new NotImplementedException();
+		}
 	}
 }

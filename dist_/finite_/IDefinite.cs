@@ -3,5 +3,14 @@
 	/// <summary>
 	/// only one sample, and its density is 1;
 	/// </summary>
-	public interface IDefinite:IFinite { }
+	/// alias:
+	///		definite
+	///			like <see cref="IFinite"/>
+	///			de-finite
+	public interface IDefinite
+		:
+		IFinite
+		,
+		dist_.ITrivia
+	{ }
 }

@@ -8,7 +8,7 @@
 	///			simple event;
 	///		individual
 	public interface ISample
-		:nilnul.stat._dist.event_.IBasicEvent
+		:nilnul.stat._dist.evt_.IBasicEvent
 	{
 	}
 

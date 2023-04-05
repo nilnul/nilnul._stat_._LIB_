@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using R = nilnul.num.RealI;
 using nilnul.num.real;
 using nilnul.num._quotient.fraction.op;
+using nilnul.num.quotient_;
 
 namespace nilnul.stat._dist
 {
@@ -25,6 +26,12 @@ namespace nilnul.stat._dist
 		}
 		public Prob(nilnul.num.QuotientI1 ed1)
 			:this(  nilnul.num.real_.Quotient.CreateByDivide(ed1.numerator,ed1.denominator1) )
+		{
+		}
+
+		public Prob(DenomNonnil ed1):this(
+			 nilnul.num.real_.Quotient.CreateByDivide(ed1.numerator,ed1.denominator)
+		)
 		{
 		}
 

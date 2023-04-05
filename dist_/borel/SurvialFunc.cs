@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.random.borel
+namespace nilnul.stat.dist_.borel
 {
 	public class SurvialFunc
 	{

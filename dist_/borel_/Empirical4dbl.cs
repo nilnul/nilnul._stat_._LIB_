@@ -1,4 +1,4 @@
-﻿using nilnul.stat.dist_.finite_;
+﻿using nilnul.stat.dist_.finite_.cmf_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +11,12 @@ namespace nilnul.stat.dist_.borel_
 	/// <summary>
 	/// from discrete measure to continuous measure 
 	/// </summary>
-	public class Empirical4dbl
+	public class Empirical8dbl
 	   : nilnul.obj.Box1<
-		   nilnul.stat.dist_.finite_.CumulableDbl
+		   nilnul.stat.dist_.finite_.cmf_.Dbl2dbl
 	   >
 	{
-		public Empirical4dbl(CumulableDbl val) : base(val)
+		public Empirical8dbl(Dbl2dbl val) : base(val)
 		{
 		}
 

@@ -10,4 +10,14 @@
 	/// </remarks>
 	public interface IFinite:IDist { }
 
+	/// <summary>
+	/// the measure is priori deemed as <see cref="nilnul.num.IReal"/>, as defined by <see cref="nilnul.collection_.axiomic.IMeasure"/>
+	/// </summary>
+	/// <typeparam name="TSample"></typeparam>
+	public interface IFinite<TSample> : IFinite { }
+
+	public interface IFinite<TSample, TMeasure> : IFinite<TSample> {
+
+	}
+
 }

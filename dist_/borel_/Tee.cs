@@ -12,4 +12,6 @@ namespace nilnul.stat.dist_.borel_
 	interface Tee
 	{
 	}
+//A Student's t-distribution with one degree of freedom (v = 1) is a Cauchy distribution with location parameter x = 0 and scale parameter γ = 1.
+
 }

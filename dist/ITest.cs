@@ -10,6 +10,10 @@ namespace nilnul.stat.dist
 	/// 假设检验；
 	/// 一组数据是否符合某个特定分布
 	/// </summary>
+	/// alias:
+	///		verify
+	///		veri
+	///		
 	public interface ITest
 	{
 		///often we need to order the 
