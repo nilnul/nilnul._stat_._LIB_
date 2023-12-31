@@ -4,6 +4,9 @@
 		:
 		Borel4dblI
 		,
+		_pdfable_.Cdf4dblI
+
+		,
 		_pdfable_.Density4dblI
 		,
 		IPdf

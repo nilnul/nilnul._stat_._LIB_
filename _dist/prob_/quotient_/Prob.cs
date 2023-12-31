@@ -8,6 +8,10 @@ using System.Numerics;
 
 namespace nilnul.prob.rationalProb
 {
+	/// <summary>
+	/// prob in quotient;
+	/// </summary>
+	[Obsolete(nameof(stat._dist.Prob8quotient))]
 	public partial class Prob
 		:nilnul.num.rational.Rational_InheritFraction
 	{

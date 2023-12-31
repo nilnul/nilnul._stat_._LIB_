@@ -13,25 +13,25 @@ namespace nilnul.stat.dist_.finite_.cmf_._binomial
 	{
 		
 
-		static public SortedDictionary<uint, Prob8frac> SortedDict(
+		static public SortedDictionary<uint, Prob8quotient> SortedDict(
 SortedDictionary<uint, nilnul.num.Quotient1> val
 		) {
-			var r = new SortedDictionary<uint, Prob8frac>(
+			var r = new SortedDictionary<uint, Prob8quotient>(
 
 			);
 			val.Each(
-				X=> r.Add( X.Key, new Prob8frac(X.Value) )
+				X=> r.Add( X.Key, new Prob8quotient(X.Value) )
 			);
 			return r;
 		}
-		static public SortedDictionary<uint, Prob8frac> SortedDict(
+		static public SortedDictionary<uint, Prob8quotient> SortedDict(
 SortedDictionary<uint, double> val
 		) {
-			var r = new SortedDictionary<uint, Prob8frac>(
+			var r = new SortedDictionary<uint, Prob8quotient>(
 
 			);
 			val.Each(
-				X=> r.Add( X.Key, new Prob8frac(X.Value) )
+				X=> r.Add( X.Key, new Prob8quotient(X.Value) )
 			);
 			return r;
 		}

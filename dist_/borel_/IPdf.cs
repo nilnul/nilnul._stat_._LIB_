@@ -10,5 +10,14 @@
 	///		<see cref="borel_.IFinite"/>
 	///		<see cref="borel_.IDiscrete"/> where some point's measure is not zero;
 	/// </summary>
-	public interface IPdf : IBorel { }
+	/// <remarks>
+	/// a <see cref="_borel.ICpf"/> that is continous, not just right continuous;
+	/// </remarks>
+	public interface IPdf
+		:
+		//IBorel
+		//,contiguous_.IAbsoluteContinousCpf
+		//,
+		contiguous_.IPdfable
+	{ }
 }

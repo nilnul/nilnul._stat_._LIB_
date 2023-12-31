@@ -19,7 +19,7 @@ namespace nilnul.stat._dist_
 		public T sample()
 		{
 			return sample(
-				nilnul.stat.dist_.borel_.pdf_.uniform_.prob.sample_._RandomX.Next4dbl()
+				nilnul.stat.dist_.borel_.pdfable_.uniform_.prob.sample_._RandomX.Next4dbl()
 			);
 		}
 

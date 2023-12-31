@@ -40,7 +40,7 @@ namespace nilnul.stat.dist_.finite_
 		{
 			 double x= 1d / _samples.Count;
 
-			var index=(int) Math.Floor(  borel_.pdf_.uniform_._Preportion4dblX.Sample() / x );
+			var index=(int) Math.Floor(  borel_.pdfable_.uniform_._Preportion4dblX.Sample() / x );
 			if (index  >=_samples.Count) // account for precision issue;
 			{
 				return _listCached.Last();
@@ -50,7 +50,7 @@ namespace nilnul.stat.dist_.finite_
 			//throw new NotImplementedException();
 		}
 
-		public double pmf(TEvent sample)
+		public double prob(TEvent sample)
 		{
 			return 1d / _samples.Count;
 			//throw new NotImplementedException();

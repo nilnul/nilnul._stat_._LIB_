@@ -5,7 +5,9 @@ using System.Text;
 
 namespace nilnul.prob.doubleProb
 {
-	public partial interface PmfI<T>
+
+	[Obsolete()]
+	public  interface PmfI<T>
 	{
 		Prob probability(T sample);
 

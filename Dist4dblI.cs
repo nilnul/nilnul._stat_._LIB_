@@ -4,7 +4,7 @@
 		:
 		_dist_.SampleI<T>
 		,
-		_dist_.Prob4dblI<T>
+		_dist_.Pmf4dblI<T>
 		,
 		IDist
 	{ }

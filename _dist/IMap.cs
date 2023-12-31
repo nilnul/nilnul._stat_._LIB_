@@ -1,23 +1,7 @@
-﻿namespace nilnul.stat._dist
+﻿using System;
+
+namespace nilnul.stat._dist
 {
-	/// <summary>
-	/// an event and its associate measure;
-	/// event measured;
-	/// a map of the measure;
-	/// </summary>
-	/// alias:
-	///		map
-	///			a collection of map(keyVal|attr|term|prop) is called dict;
-	///		attr
-	///		prop
-	///		entry
-	///		
-	///		gauge
-	///		observe
-	///		occur;
-	///		frequency
-	///		
-	///		
-	///		
+	[Obsolete(nameof(nilnul.stat._dist.IPropense))]
 	public interface IMap { }
 }

@@ -7,7 +7,7 @@ namespace nilnul.stat.dist_
 {
 	public  interface Borel4dblI
 		:
-		_borel_.Cdf4dblI
+		_borel_.Cpf4dblI
 		,
 		_borel_.prob_.OfExt4DblI
 		//,

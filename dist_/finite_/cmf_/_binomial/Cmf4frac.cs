@@ -10,12 +10,12 @@ namespace nilnul.stat.dist_.finite_.cmf_._binomial
 	/// at least one el
 	/// </summary>
 	public class Cmf4frac :
-		nilnul.obj.Box_pub<SortedDictionary<uint, Prob8frac>>
+		nilnul.obj.Box_pub<SortedDictionary<uint, Prob8quotient>>
 		,
 
 		ICmfable
 	{
-		public Cmf4frac(SortedDictionary<uint, Prob8frac> val) : base(val)
+		public Cmf4frac(SortedDictionary<uint, Prob8quotient> val) : base(val)
 		{
 
 			nilnul.stat._dist.prob.str.be_.nondecrement._VowX.Vow(val.Values);
@@ -41,7 +41,7 @@ namespace nilnul.stat.dist_.finite_.cmf_._binomial
 		}
 
 
-		public Prob8frac cmf(uint el)
+		public Prob8quotient cmf(uint el)
 		{
 			return this.boxed[el];
 		}

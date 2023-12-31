@@ -11,13 +11,13 @@ namespace nilnul.stat._dist_
 	/// note for <see cref="dist_.IBorel"/>, the event is an interval;
 	/// </summary>
 	/// <typeparam name="TEvent">
-	/// event: sample or interval;
+	/// event: sample(for discrete) or interval(for borel);
 	/// </typeparam>
 	/// <remarks>
 	/// consider to defer this to <see cref="stat.dist_._finite_"/> and <see cref="stat.dist_._discrete_"/>
 	/// </remarks>
-	///
-	[Obsolete("this can only be applied to classis|discrete distributions; for borel, the prob of any point is nil, and we need interval, not the sample,  as the event;")]
+	/// <see cref="_dist_.Pmf4dblI{T}"/>
+	[Obsolete("this can only be applied to classis|discrete distributions; for borel, the prob of any point is nil, and we need interval, not the sample,  as the event;",true)]
 	public interface Prob4dblI<TEvent>
 		:_PmfI<TEvent,double>
 	{

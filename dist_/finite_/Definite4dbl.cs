@@ -44,7 +44,7 @@ namespace nilnul.stat.dist_.finite_
 
 
 
-		public double pmf(T sample)
+		public double prob(T sample)
 		{
 
 			return prob_nil4nonsample(sample) ; 

@@ -7,7 +7,7 @@
 	public interface Finite4dblI<T>
 		:DistI<T>
 		,
-		_finite_.Prob4dblI<T>
+		_finite_.Pmf4dblI<T>
 	{ }
 
 }

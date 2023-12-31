@@ -1,118 +1,119 @@
 ﻿using nilnul.obj.str;
-using nilnul.stat._dist_;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace nilnul.stat.dist_
 {
+
 	/// <summary>
-	/// a prob on finite set such that we can measure the elements in the set. the prob|range is double;
+	/// the sample|domain is double; all other points is measured nil and this is still a borel distribution, but may be this is better suited to be processed as <see cref="stat.dist_.IFinite"/>; or placed here to save the typePar;
 	/// </summary>
-	public class Finite4dbl<TSample>
-		: Dictionary<TSample, ProbDbl>
-		,
-		Finite4dblI<TSample>
-
+	public class Finite4dbl : Finite4dbl<double>
 	{
-
-		public Finite4dbl(Dictionary<TSample, ProbDbl> dict)
-			: base(dict)
+		public Finite4dbl(Dictionary<double, ProbDbl> dict) : base(dict)
 		{
-			nilnul.stat.prob.str.be_.totalOne._VowX.Vow(this.Values);
+		}
+		public Finite4dbl(Dictionary<double, double> dict) : base(dict)
+		{
 		}
 
-
-		public double pmf(TSample sample)
-		{
-
-			throw new System.NotImplementedException();
-		}
-
-		public TSample sample(double cmf)
-		{
-			double rand = cmf;
-			double cumulativeProb = 0;
-
-			var evts = this.ToArray();
-
-			for (int i = 0; i < this.Count-1 ; i++)
-			{
-				if (
-					rand <this.ElementAt(i).Value._val
-				)
-				{
-					return this.ElementAt(i).Key;
-
-				}
-				cumulativeProb +=this.ElementAt(i).Value._val ;
-
-			}
-			return this.Last().Key;
-
-
-		}
-		public TSample sample()
-		{
-			return sample(
-				nilnul.stat.dist_.borel_.pdf_.uniform_._Preportion4dblX.Sample()
+		static public Finite4dbl OfOccurences( Dictionary<double, int> bag) {
+			return new Finite4dbl(
+				dist_.Finite4dbl<double>._AsDict_0freq(bag)
 			);
-		
-
-
 		}
-		static public Finite4dbl<TSample> Create(IEqualityComparer<TSample> eq, IEnumerable<KeyValuePair<TSample, ProbDbl>> enumerable)
+		[Obsolete(nameof(OfOccurences))]
+		static public Finite4dbl OvOccurences( Dictionary<double, int> bag) {
+			return new Finite4dbl(
+				dist_.Finite4dbl<double>._AsDict_0freq(bag)
+			);
+		}
+
+		static public Finite4dbl OfSurvey(IEnumerable<double> bag)
 		{
-			var r = new
-			 Dictionary<TSample, ProbDbl>(eq);
-			nilnul.obj.DictX.AddRange(
-				r,
-				enumerable
+			return new Finite4dbl(
+				Finite4dbl<double>.AsDict_ofSamples(bag)
 			);
-			return new Finite4dbl<TSample>(r);
 		}
 
+		static public Finite4dbl OfOccurences(num.real.BagOfDbl bag)
+		{
 
-		static public Finite4dbl<TSample> OfSamples(IEnumerable<TSample> samples) {
+			var total = bag.cardinality;//.Select(kv=>kv.Value)
 
-			var dict = new Dictionary<TSample, ProbDbl>();
+			var probs = new Dictionary<double, ProbDbl>();
 
-			var totalCount = samples.Count();
-
-			samples.GroupBy(x => x).ForEach(
-				item=>
-				dict.Add(item.Key, new ProbDbl( (double)item.Count() / totalCount) )
-			);
-
-			return new Finite4dbl<TSample>(dict);
-
-
-		}
-
-		static public Dictionary<TSample, ProbDbl> _AsDict_0freq( Dictionary<TSample, int> bag) {
-
-
-			var total = bag.Values.Cast<int>().Sum();//.Select(kv=>kv.Value)
-
-			var probs = new Dictionary<TSample, ProbDbl>();
-
-			double totalDbl = total;
 
 			bag.Each(
-				kv=> probs.Add(kv.Key, new ProbDbl( kv.Value / totalDbl ) )
+				kv=> probs.Add(
+					kv.Key,
+					new ProbDbl(
+					nilnul.num.quotient.to_._DblX.ByCastNumDen (
+						nilnul.num.Quotient1.CreateByDivide ( kv.Value , total )
+					)
+					)
+				)
 			);
 
-			return probs;
+			return new Finite4dbl(probs);
+
 
 		}
 
-		static public Finite4dbl<TSample> OfOccurences( Dictionary<TSample, int> bag) {
+		[Obsolete(nameof(OfOccurences))]
+		static public Finite4dbl OvOccurences(num.real.BagOfDbl bag)
+		{
+
+			var total = bag.cardinality;//.Select(kv=>kv.Value)
+
+			var probs = new Dictionary<double, ProbDbl>();
 
 
+			bag.Each(
+				kv=> probs.Add(
+					kv.Key,
+					new ProbDbl(
+					nilnul.num.quotient.to_._DblX.ByCastNumDen (
+						nilnul.num.Quotient1.CreateByDivide ( kv.Value , total )
+					)
+					)
+				)
+			);
 
-			return new Finite4dbl<TSample>(_AsDict_0freq(bag));
+			return new Finite4dbl(probs);
+
+
 		}
 
-		
+
+		static public Finite4dbl OfSamples( IEnumerable<double> els) {
+			//var bag1 = new nilnul.obj.bag_.EqDefault<double, nilnul.num.real.EqDbl>();
+
+			var bag11 = new nilnul.num.real.BagOfDbl(
+				els
+			);
+
+			return OfOccurences(bag11);
+
+
+		}
+
+		[Obsolete(nameof(OfSamples))]
+		static public Finite4dbl OvOccurences( IEnumerable<double> els) {
+			//var bag1 = new nilnul.obj.bag_.EqDefault<double, nilnul.num.real.EqDbl>();
+
+			var bag11 = new nilnul.num.real.BagOfDbl(
+				els
+			);
+
+			return OvOccurences(bag11);
+
+
+		}
+
 	}
 
 }

@@ -28,7 +28,7 @@ namespace nilnul.stat._dist.prob.be_
 
 		}
 
-		static public bool Be(Prob8frac measures)
+		static public bool Be(Prob8quotient measures)
 		{
 
 			return measures == 1;

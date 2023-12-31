@@ -12,4 +12,6 @@ namespace nilnul.stat.dist_._finite
 	public interface ICmf4dbl
 	{
 	}
+
+
 }

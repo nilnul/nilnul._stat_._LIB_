@@ -15,28 +15,28 @@ using System.Text;
 namespace nilnul.stat.dist_.borel_
 {
 
-	
-	 public abstract class Pdfable4dblA
+	public abstract class Pdfable4dblA
 		:
-		borel_.pdf_.Invertible4dblI
+		borel_.pdfable_.Invertible4dblI
 		,
 		_borel_.prob_.OfExt4DblI
 		,
 		Pdf4dblI
 	{
-		public abstract double cdf(double upperBound);
+		public abstract double cumulatedProb(double upperBound);
 		public abstract double density(double sample);
 		public abstract double invert(double cdf);
 
 		public double prob(Interval4dbl sample)
 		{
-			return cdf(sample.upper.mark.errable) - cdf(sample.lower.mark.errable);
+			return cumulatedProb(sample.upper.mark.errable) - cumulatedProb(sample.lower.mark.errable);
 		}
 
-		public double pmf(Bound4dbl sample)
+		public double prob(Bound4dbl sample)
 		{
+			return _BorelX.Pmf(this,sample);
 			/// as we disregard whether border is closed or not, hence we can only do the following on <see cref="IPdf"/>
-			return cdf(sample.upper.mark.errable) - cdf(sample.lower.mark.errable);
+			//return cpf(sample.upper.mark.errable) - cpf(sample.lower.mark.errable);
 
 		}
 

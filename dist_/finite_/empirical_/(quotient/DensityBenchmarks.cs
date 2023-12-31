@@ -20,7 +20,7 @@ namespace nilnul.prob.rationalMeasure.empirical
 	/// appended with 1/(n+1)
 	/// 
 	/// </summary>
-	public partial class DensityBenchmarks
+	public  class DensityBenchmarks
 		: nilnul.prob.rationalProb.rationalSample.DensityFunction_sortedDict
 	{
 

@@ -8,7 +8,9 @@ namespace nilnul.prob.doubleProb
 	/// <summary>
 	/// this is the supertype of all kinds of distributions (be it )
 	/// </summary>
-	public partial interface DistributionI
+	///
+	[Obsolete()]
+	public  interface DistributionI
 	{
 
 

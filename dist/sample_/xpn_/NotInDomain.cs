@@ -8,7 +8,7 @@ namespace nilnul.stat.dist.sample_.xpn_
 {
 
 	/// <summary>
-	/// <see cref="stat.dist_.finite_.Definite4dbl{T}.pmf(T)"/> would throw exception if you ask for the probability of an instance not in domain; it's a subtle difference from a sample of 0 probability; for example, In <see cref="dist_.IBorel"/>, for a single point, the prob is nil but it's still possible;
+	/// <see cref="stat.dist_.finite_.Definite4dbl{T}.prob(T)"/> would throw exception if you ask for the probability of an instance not in domain; it's a subtle difference from a sample of 0 probability; for example, In <see cref="dist_.IBorel"/>, for a single point, the prob is nil but it's still possible;
 	/// </summary>
 	[Serializable]
 	public class NotInDomain : Exception

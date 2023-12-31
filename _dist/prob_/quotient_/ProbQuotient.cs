@@ -9,7 +9,7 @@ using nilnul.stat._dist;
 
 namespace nilnul.stat
 {
-	[Obsolete(nameof(stat._dist.Prob8frac))]
+	[Obsolete(nameof(stat._dist.Prob8quotient))]
 	public  class ProbQuotient
 		:
 		nilnul.num.quotient.be_.nonneg_.leOne.vow.En

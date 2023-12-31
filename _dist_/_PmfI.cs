@@ -15,6 +15,6 @@ namespace nilnul.stat._dist_
 		/// <returns></returns>
 		///
 		[Obsolete(nameof(_dist.IProb) +"is occupying the name; so plz use:" + nameof(IPmf))]
-		TMeasure pmf(TEvent sample);
+		TMeasure prob(TEvent sample);
 	}
 }

@@ -22,7 +22,7 @@ namespace nilnul.stat.dist_.borel_
 
 	
 
-		public abstract double cdf(double upperBound);
+		public abstract double cumulatedProb(double upperBound);
 
 
 		/// <summary>
@@ -31,6 +31,6 @@ namespace nilnul.stat.dist_.borel_
 		/// <param name="prob"></param>
 		/// <returns></returns>
 		public abstract double invert(double prob);
-		public abstract double pmf(Bound4dbl sample);
+		public abstract double prob(Bound4dbl sample);
 	}
 }

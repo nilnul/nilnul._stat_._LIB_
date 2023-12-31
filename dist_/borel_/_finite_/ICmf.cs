@@ -11,7 +11,10 @@ namespace nilnul.stat.dist_.borel_._finite_
 	/// cumulative mass function;
 	/// same semantics for <see cref="dist_.borel_._pdfable_."/>
 	/// </summary>
-	public interface ICmf:nilnul.stat.dist_._borel_.ICdf
+	public interface ICmf
+		:
+		stat.dist_.borel_._discrete_.ICmf
+		//,nilnul.stat.dist_._borel_.ICpf
 	{
 	}
 

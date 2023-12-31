@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Measure = nilnul.prob._measure.Double;
 
 namespace nilnul.prob
 {
+	[Obsolete()]
 	public class FiniteDD:FiniteD<double,nilnul.num.real.EqDbl>
 	{
 

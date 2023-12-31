@@ -28,9 +28,9 @@ namespace nilnul.stat.dist_.finite_.cmf_
 		:
 		IFinite
 		,
-		stat.dist_._FiniteI<N, _dist.Prob8frac>
+		stat.dist_._FiniteI<N, _dist.Prob8quotient>
 		,
-		_dist_.PmfI<N, _dist.Prob8frac>
+		_dist_.PmfI<N, _dist.Prob8quotient>
 	{
 		private N _total;
 
@@ -39,9 +39,9 @@ namespace nilnul.stat.dist_.finite_.cmf_
 			get { return _total; }
 			set { _total = value; }
 		}
-		private _dist.Prob8frac _prob4bernoulli;
+		private _dist.Prob8quotient _prob4bernoulli;
 
-		public _dist.Prob8frac prob4bernoulli
+		public _dist.Prob8quotient prob4bernoulli
 		{
 			get { return _prob4bernoulli; }
 			set { _prob4bernoulli = value; }
@@ -49,7 +49,7 @@ namespace nilnul.stat.dist_.finite_.cmf_
 
 
 		public Binomial2frac(
-			N n, _dist.Prob8frac p
+			N n, _dist.Prob8quotient p
 		)
 		{
 			_total = n;
@@ -61,7 +61,7 @@ namespace nilnul.stat.dist_.finite_.cmf_
 
 			for (uint i = 0; i < total; i++)
 			{
-				prob0 += this.pmf(i);
+				prob0 += this.prob(i);
 
 				sortedDict.Add(i, prob0);
 			}
@@ -72,21 +72,21 @@ namespace nilnul.stat.dist_.finite_.cmf_
 		}
 
 
-		public nilnul.stat._dist.Prob8frac pmf(N k)
+		public nilnul.stat._dist.Prob8quotient prob(N k)
 		{
 
 			if (k < 0)
 			{
-				return Prob8frac.Nil;
+				return Prob8quotient.Nil;
 			}
 			if (k > _total)
 			{
-				return Prob8frac.One;
+				return Prob8quotient.One;
 
 			}
 
 
-			return new Prob8frac(
+			return new Prob8quotient(
 					new nilnul.num.Quotient1(
 						nilnul.num.co_.ge._CombinateX._assumeNumGe(_total, k)
 					)
@@ -109,11 +109,11 @@ namespace nilnul.stat.dist_.finite_.cmf_
 		public N sample()
 		{
 			return sample(
-				nilnul.stat.dist_.borel_.pdf_.uniform_.prob.sample_._RandomX.Next4frac()
+				nilnul.stat.dist_.borel_.pdfable_.uniform_.prob.sample_._RandomX.Next4frac()
 			);
 
 		}
-		public N sample(_dist.Prob8frac prob)
+		public N sample(_dist.Prob8quotient prob)
 		{
 			
 				return _cmfCached.boxed.First(
@@ -127,7 +127,7 @@ namespace nilnul.stat.dist_.finite_.cmf_
 			return new Binomial2frac(
 				 N.Of(v)
 				,
-				new Prob8frac(ed1)
+				new Prob8quotient(ed1)
 			);
 
 			//throw new NotImplementedException();

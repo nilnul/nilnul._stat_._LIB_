@@ -26,4 +26,8 @@ namespace nilnul.stat.dist_
 	{
 
 	}
+
+	///::::::
+	/// discrete
+	/// pdf
 }

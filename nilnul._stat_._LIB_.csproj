@@ -96,74 +96,83 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="MathNet.Iridium, Version=1.0.1.32096, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MathNet.Iridium.1.0.1.32096\lib\net46\MathNet.Iridium.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.collection._axiomatic_._LIB_, Version=1.0.8064.37643, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.collection._axiomatic_._LIB_.1.0.8064.37643\lib\net48\nilnul.collection._axiomatic_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.collection._axiomatic_._LIB_, Version=1.0.8544.42160, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.collection._axiomatic_._LIB_.1.0.230524.152505-sym\lib\net481\nilnul.collection._axiomatic_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.collection_._discrete_._LIB_.1.1.220728.140313\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.230611.40617-sym\lib\net481\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.geometry._planar_._LIB_.1.1.220815.32404\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.230621.120911-sym\lib\net481\nilnul.geometry._planar_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.lang_._cognom_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.lang_._cognom_._LIB_.1.1230806.123209-sym\lib\netstandard2.0\nilnul.lang_._cognom_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.lang_._cot_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.lang_._cot_._LIB_.1.1230804.164911-sym\lib\netstandard2.0\nilnul.lang_._cot_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.math._calculus_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.math._calculus_._LIB_.1.1.230330.184447-sym\lib\net481\nilnul.math._calculus_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.math._calculus_._LIB_.1.1.231025.131213-sym\lib\net481\nilnul.math._calculus_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.230316.155248-sym\lib\net481\nilnul.num.real._func_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num.complex._func_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.num.complex._func_._LIB_.1.0.230522.85453-sym\lib\net481\nilnul.num.complex._func_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.230328.42932-sym\lib\net481\nilnul.num.real._matrix_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num.real._func_._LIB_,Version=1.1.230507.144737-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.230507.144737-sym\lib\net481\nilnul.num.real._func_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._complex_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._complex_._LIB_.1.1.220731.183914\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num.real._matrix_._LIB_,Version=1.1.230509.153304-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num.real._matrix_._LIB_.1.1.230509.153304-sym\lib\net481\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._integer_._LIB_.1.1.230402.101933-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
+    <Reference Include="nilnul.num._complex_._LIB_,Version=1.1.230517.130110-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num._complex_._LIB_.1.1.230517.130110-sym\lib\net481\nilnul.num._complex_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._integer_._LIB_,Version=1.1.230515.93530-sym, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.230515.93530-sym\lib\net481\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.230401.163801-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.230716.154720-sym\lib\net481\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.230405.73423-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.231025.120651-sym\lib\net481\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.230402.92104-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.231003.120850-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.230404.120950-sym\lib\net481\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.231002.104103-sym\lib\net481\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._fs_._LIB_.2.1.230118.82646-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.231005.192413-sym\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.230404.164936-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.231022.71615-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.230404.125713-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.231022.71617-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.230403.64636-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.231025.60405-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.230318.123603-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.231003.172246-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.230321.135854-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.230730.135726-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.230319.90029-sym\lib\net481\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.231103.90416-sym\lib\net481\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._txt_._LIB_.1.1.230107.122025-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.231101.104953-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._xml_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._xml_._LIB_.1.1.221119.43115\lib\net481\nilnul._xml_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._xml_._LIB_.1.1.231101.183308-sym\lib\net481\nilnul._xml_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="sergeyBochkanov._alglib_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\sergeyBochkanov._alglib_._LIB_.1.1.231025.131213-sym\lib\net481\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.7938.39007, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.7938.39007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
@@ -186,22 +195,28 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LIB_.1.1.230219.83348-sym\lib\net481\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\_nilnul_._LIB_.1.1.230728.104656-sym\lib\net481\_nilnul_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LINQ_.1.1.230219.73454-sym\lib\net481\_nilnul_._LINQ_.dll</HintPath>
+      <HintPath>..\..\.deps\_nilnul_._LINQ_.1.1.230709.141821-sym\lib\net481\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dist4dblI.cs" />
     <Compile Include="dist\be_\Bimodal.cs" />
     <Compile Include="dist\IFit.cs" />
+    <Compile Include="dist\IQuantile.cs" />
     <Compile Include="dist\ISample.cs" />
     <Compile Include="dist\IStr.cs" />
     <Compile Include="dist\ISupport.cs" />
     <Compile Include="dist\ITest.cs" />
     <Compile Include="dist\IPmf.cs" />
+    <Compile Include="dist\quantile_\IMedian.cs" />
+    <Compile Include="dist\quantile_\IQuartile.cs" />
+    <Compile Include="dist\quantile_\IQuintile.cs" />
+    <Compile Include="dist\quantile_\ITertile.cs" />
     <Compile Include="dist\sample_\xpn_\NotInDomain.cs" />
+    <Compile Include="dist\survey\be_\IAlmostSurely.cs" />
     <Compile Include="dist\survey\IIndividuals.cs" />
     <Compile Include="dist\survey\IOrdered.cs" />
     <Compile Include="dist\survey\ISize.cs" />
@@ -221,6 +236,7 @@
     <Compile Include="dist_\bivar\be_\IIid.cs" />
     <Compile Include="dist_\bivar\be_\IIsodist.cs" />
     <Compile Include="dist_\bivar\be_\IIndependent.cs" />
+    <Compile Include="dist_\bivar_\borel_\normal\_density\Deduce.cs" />
     <Compile Include="dist_\bivar_\IBorel.cs" />
     <Compile Include="dist_\borel\cdf_\INoncontinuos.cs" />
     <Compile Include="dist_\borel\cdf\IStricGrowInBound.cs" />
@@ -228,6 +244,7 @@
     <Compile Include="dist_\borel\co_\IIndep.cs" />
     <Compile Include="dist_\borel\co_\indep\alesce_\IAdd.cs" />
     <Compile Include="dist_\borel\cdf\IComplement.cs" />
+    <Compile Include="dist_\borel\IScope.cs" />
     <Compile Include="dist_\borel\of_\IOfDiscrete.cs" />
     <Compile Include="dist_\borel\pdf_\IPositive4all.cs" />
     <Compile Include="dist_\borel\cdf_\IInversible.cs" />
@@ -252,66 +269,178 @@
     <Compile Include="dist_\borel\survey_\indep\stream_\append\terminal\_fit\theorem_\ICentralLimitTheorem.cs" />
     <Compile Include="dist_\borel\survey_\indep\stream_\IAppend.cs" />
     <Compile Include="dist_\borel\variance\ISqrt.cs" />
-    <Compile Include="dist_\borel_\pdf_\Beta4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\IConcaveNonstrict.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\IConvexNonstrict.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\ISpanned.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\IStd.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\Concave4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\IUniform.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\std_\IUniform.cs" />
-    <Compile Include="dist_\borel_\cdf_\IPdf.cs" />
+    <Compile Include="dist_\borel_\contiguous_\IAbsoluteContinousCpf.cs" />
+    <Compile Include="dist_\borel_\contiguous_\INonabs.cs" />
+    <Compile Include="dist_\borel_\contiguous_\INonpdfable.cs" />
+    <Compile Include="dist_\borel_\contiguous_\IPdfable.cs" />
+    <Compile Include="dist_\borel_\contiguous_\nonabs_\ISingular.cs" />
+    <Compile Include="dist_\borel_\discrete_\finite\IPmf.cs" />
+    <Compile Include="dist_\borel_\discrete_\finite_\_definite\ICmf.cs" />
+    <Compile Include="dist_\borel_\discrete_\_finite\ICmf.cs" />
+    <Compile Include="dist_\borel_\contiguous_\nonpdf_\ICantor.cs" />
+    <Compile Include="dist_\borel_\IContiguous.cs" />
+    <Compile Include="dist_\borel_\IIntervaled.cs" />
+    <Compile Include="dist_\borel_\INondiscrete.cs" />
+    <Compile Include="dist_\borel_\contiguous_\nonpdf_\ISingular.cs" />
+    <Compile Include="dist_\borel_\IPartial.cs" />
+    <Compile Include="dist_\borel_\nondiscrete_\IContinuous.cs" />
+    <Compile Include="dist_\borel_\intervaled_\IBounded.cs" />
+    <Compile Include="dist_\borel_\partial_\IConnected.cs" />
+    <Compile Include="dist_\borel_\intervaled_\INonneg.cs" />
+    <Compile Include="dist_\borel_\pdfable\IFit.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Beta4dblI.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\IConcaveNonstrict.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\IConvexNonstrict.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\ISpanned.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\IStd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\Concave4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\IUniform.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\std_\IUniform.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\occurs_\_ByThickeningX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\_of\occur\_ConvertX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\_OfSurveyX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\_OfPmfX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_empiric\cmf\be_\nil4first\Vow4quotient.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_empiric\cmf\be_\nil4first\Vow.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_empiric\cmf\be_\nil4first\vow\Ee4quotient.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_empiric\cmf\be_\nil4first\vow\Ee4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_empiric\cmf\be_\Prob8nil4first.cs" />
+    <Compile Include="dist_\borel_\contiguous_\nonpdf_\IQuest.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\sum_\_algos\NewFolder1\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf\be_\IPiecewiseDerivable.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf\theorem_\IContinuous.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf\theorem_\INondecrease.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf\theorem_\Nil8neginf.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf\theorem_\One8inf.cs" />
+    <Compile Include="dist_\borel_\_pdfable_\IDensity.cs" />
+    <Compile Include="dist_\finite\of_\_OfSurveyX.cs" />
+    <Compile Include="dist_\finite\of_\_OfOccursX.cs" />
+    <Compile Include="dist_\finite\of_\IOfMetrics.cs" />
+    <Compile Include="dist_\finite\of_\occurs_\IOfRepeation.cs" />
+    <Compile Include="dist_\finite\of_\measure_\IRepeatedTimes.cs" />
+    <Compile Include="dist_\finite\of_\metric_\IOfMetricInMeasure.cs" />
+    <Compile Include="dist_\finite\of_\survey_\IOfSamples.cs" />
+    <Compile Include="dist_\finite\of_\IOfSurvey.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient\of_\_OfPmfX.cs" />
+    <Compile Include="dist_\finite_\cmf_\_bySortedDict\sortedDict\LastApprox2one.cs" />
+    <Compile Include="dist_\finite_\cmf_\_quotient2quotient\IPmf.cs" />
+    <Compile Include="dist_\finite_\quotient2quotient\_RegressionsX.cs" />
+    <Compile Include="dist_\finite_\_cmfable_\Cmf4dblI.cs" />
+    <Compile Include="dist_\finite_\_cmfable_\ICmf.cs" />
+    <Compile Include="dist_\_BorelX.cs" />
+    <Compile Include="dist_\borel_\_discrete_\Cmf4dblI.cs" />
+    <Compile Include="dist_\borel_\_discrete_\ICmf.cs" />
     <Compile Include="dist_\borel_\chiSq\co_\indep\alesce_\IAdd.cs" />
     <Compile Include="dist_\borel_\chiSq\str_\started\ISum.cs" />
     <Compile Include="dist_\borel_\chiSq\str_\started_\indep\ISum.cs" />
     <Compile Include="dist_\borel_\chiSq_\IExp.cs" />
-    <Compile Include="dist_\borel_\discrete_\finite_\Definite.cs" />
+    <Compile Include="dist_\borel_\discrete_\finite_\Definite4dbl.cs" />
     <Compile Include="dist_\borel_\Domained4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\Erlang.cs" />
-    <Compile Include="dist_\borel_\pdf_\Exp4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\exp\str_\started_\indep_\equitime\ISum.cs" />
-    <Compile Include="dist_\borel_\pdf_\Gamma4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma\co_\indep_\equiscale\to_\ToBeta.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma\str_\started_\indep\ISum.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma_\IChiSq.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma_\IErlang.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma_\IExp.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma_\IStd.cs" />
-    <Compile Include="dist_\borel_\pdf_\IBeta.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Erlang.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Exp4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\exp\co_\indep\Subtract4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\exp\str_\started_\indep_\equitime\ISum.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Gamma4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma\co_\indep_\equiscale\to_\ToBeta.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma\str_\started_\indep\ISum.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma_\IChiSq.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma_\IErlang.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma_\IExp.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma_\IStd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\IBeta.cs" />
     <Compile Include="dist_\borel_\IBoundaried.cs" />
     <Compile Include="dist_\borel_\ICdfable.cs" />
-    <Compile Include="dist_\borel_\discrete_\IDiscrete.cs" />
-    <Compile Include="dist_\borel_\IEmpirical.cs" />
-    <Compile Include="dist_\borel_\pdf_\IErlang.cs" />
+    <Compile Include="dist_\borel_\IDiscrete.cs" />
+    <Compile Include="dist_\borel_\pdfable_\IEmpirical.cs" />
+    <Compile Include="dist_\borel_\pdfable_\IErlang.cs" />
     <Compile Include="dist_\borel_\discrete_\IFinite.cs" />
     <Compile Include="dist_\borel_\ILnNormal.cs" />
-    <Compile Include="dist_\borel_\pdf_\INormal.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\co_\indep\alesce_\IAdd.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\Std4dblA.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\Std4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\std\Centripetal4Dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\std\str_\started_\indep\ISum.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\Cdf4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\cdf_\bySeries_\Calculi8partwise4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\cdf_\bySeries_\ICalculi8partwise.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\Series4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\series\Converge4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\_series\Slider4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\ICanonic.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\portion\sample_\_RandomX.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\_Prob4dblEsX.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\Prob4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\prob\sample_\_RandomX.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\xpn_\ISinglePoint.cs" />
-    <Compile Include="dist_\borel_\_finite_\ICdf4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\INormal.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\co_\indep\alesce_\IAdd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\density\ICurve.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\Std4dblA.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\Std4dblI.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\std\Centripetal4Dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\std\str_\started_\indep\ISum.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\Cdf4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\cdf_\bySeries_\Calculi8partwise4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\cdf_\bySeries_\ICalculi8partwise.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\Series4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\series\Converge4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_std_\cdf_\bySeries_\_calculi8partwise\_series\Slider4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\ICanonic.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\portion\sample_\_RandomX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\_Prob4dblEsX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\Prob4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\prob\sample_\_RandomX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\xpn_\ISinglePoint.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\occurs_\extrapolate_\IByNextImmediate.cs" />
+    <Compile Include="dist_\borel_\_discrete\ICmf.cs" />
+    <Compile Include="dist_\borel_\_finite_\Cmf4dblI.cs" />
     <Compile Include="dist_\borel_\_finite_\ICmf.cs" />
+    <Compile Include="dist_\borel_\_pdfable\ICdf.cs" />
     <Compile Include="dist_\FiniteI.cs" />
+    <Compile Include="dist_\finite\IPmf.cs" />
+    <Compile Include="dist_\finite\of_\IOfMeasures.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\occurs_\_ByAppendX.cs" />
+    <Compile Include="dist_\finite\of_\survey_\IObserves.cs" />
+    <Compile Include="dist_\finite\of_\IOfOccurs.cs" />
+    <Compile Include="dist_\finite\of_\occurs_\_Quotient2quotientX.cs" />
     <Compile Include="dist_\finite_\cmf_\Binomial.cs" />
     <Compile Include="dist_\finite_\cmf_\dbl2dbl_\_NormalizableX.cs" />
     <Compile Include="dist_\finite_\cmf_\dbl2dbl_\_SoftmaxX.cs" />
     <Compile Include="dist_\finite_\cmf_\_binomial\Cmf4frac.cs" />
     <Compile Include="dist_\finite_\cmf_\_binomial\_Cmf4fracX.cs" />
     <Compile Include="dist_\finite_\egal\sample_\index_\RandomX.cs" />
+    <Compile Include="dist_\finite_\IProb2quotient.cs" />
+    <Compile Include="dist_\finite_\cmf_\IQuotient2quotient.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\NewFolder1\Cdf_sortedDict.cs" />
+    <Compile Include="dist_\finite_\quotient2quotient_\NewFolder1\Pmf_sortedDicty.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\CpfBySortedDict.cs" />
+    <Compile Include="dist_\finite_\_cmfable\ICmf.cs" />
+    <Compile Include="dist_\multivar_\borel_\normal\_density\Deduce.cs" />
+    <Compile Include="dist_\_borel\cmf_\OfIncomplete.cs" />
+    <Compile Include="dist_\_borel\cpf\be_\IContiguous.cs" />
+    <Compile Include="dist_\_borel\cpf\be_\INonContiguous.cs" />
+    <Compile Include="dist_\_borel\cpf\be_\contiguous_\IPiecewiseDerivable.cs" />
+    <Compile Include="dist_\_borel\cpf\theorem_\IRightContinuous.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\IAbsoluteContinousCpf.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\abs_\INonPiecewiseDerivable.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\abs_\IPiecewiseDerivable.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\abs_\pd_\IDerivableEverywhere.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\INonAbsoluteContinous.cs" />
+    <Compile Include="dist_\_borel\cpf_\IContiguous.cs" />
+    <Compile Include="dist_\_borel\cpf_\INonContiguous.cs" />
+    <Compile Include="dist_\_borel\cpf_\contiguous_\nonabs_\ISingular.cs" />
+    <Compile Include="dist_\_borel\cpf_\noncontiguous_\ISteppy.cs" />
+    <Compile Include="dist_\_borel\cpf_\ICpd.cs" />
+    <Compile Include="dist_\_borel\cpf_\singular_\ICantor.cs" />
+    <Compile Include="dist_\_borel\cpf_\singular_\IQuest.cs" />
+    <Compile Include="dist_\_borel\ICmf.cs" />
+    <Compile Include="dist_\_borel\ICpf.cs" />
+    <Compile Include="dist_\borel_\_pdfable_\Cdf4dblI.cs" />
+    <Compile Include="dist_\_borel_\Cpf4dblI.cs" />
+    <Compile Include="dist_\_borel\cpf\theorem_\INondecrease.cs" />
+    <Compile Include="dist_\_borel\cpf\theorem_\Nil8neginf.cs" />
+    <Compile Include="dist_\_borel\cpf\theorem_\One8inf.cs" />
+    <Compile Include="dist_\_borel_\ICpf.cs" />
+    <Compile Include="dist_\_borel_\IPmf.cs" />
+    <Compile Include="dist_\_borel_\Pmf4dblI%28TInterval.cs" />
+    <Compile Include="dist_\_borel_\pmf_\OfExt4DblI.cs" />
+    <Compile Include="dist_\_borel_\pmf_\OfFinite4DblI.cs" />
+    <Compile Include="dist_\_borel_\pmf_\Prob4dblI1.cs" />
+    <Compile Include="dist_\_cmfable_\Cmf4dblI.cs" />
+    <Compile Include="dist_\_cmfable_\Cmf4quotientI.cs" />
+    <Compile Include="dist_\_cmfable_\CmfI%28Tsample,Tprob.cs" />
+    <Compile Include="dist_\_cmfable_\CmfI1.cs" />
+    <Compile Include="dist_\_cmfable_\ICmf.cs" />
+    <Compile Include="dist_\_cpfable_\Cpf4quotientI.cs" />
+    <Compile Include="dist_\_cpfable_\CpfI%28Tsample,Tprob.cs" />
+    <Compile Include="dist_\_cpfable_\CpfI1.cs" />
+    <Compile Include="dist_\_cpfable_\ICpf.cs" />
+    <Compile Include="dist_\_finite\IPmf.cs" />
+    <Compile Include="dist_\_finite\pmf\of_\IMeasure.cs" />
+    <Compile Include="dist_\_finite\pmf\of_\IObserves.cs" />
     <Compile Include="dist_\_finite\pmf\of_\IOfFeasibility.cs" />
     <Compile Include="dist_\_finite\pmf\of_\_feasible\fidence_\freq_\IOccurence.cs" />
     <Compile Include="dist_\_finite\pmf\of_\_feasible\fidence_\_freq\IOccurence.cs" />
@@ -321,8 +450,11 @@
     <Compile Include="dist_\_finite\pmf\of_\_feasible\fidence_\freq_\IPositive.cs" />
     <Compile Include="dist_\finite_\cmf_\dbl2dbl_\FiniteDD.cs" />
     <Compile Include="dist_\finite_\cmf_\Binomial2frac.cs" />
-    <Compile Include="dist_\_borel_\ICdf.cs" />
-    <Compile Include="dist_\_borel_\ICmf.cs" />
+    <Compile Include="dist_\_borel_\cpf_\ICdf.cs" />
+    <Compile Include="dist_\_borel_\cpf_\NewFolder1\ICmf.cs" />
+    <Compile Include="dist_\_finite\pmf_\Pmf.Packed.cs" />
+    <Compile Include="dist_\_finite_\IPmf.cs" />
+    <Compile Include="nilnul0\geometry\planar\zone_\trigon\of_\rod\Probability.cs" />
     <Compile Include="nilnul0\num\real\ext\func_\unary_\Erfc4dbl.cs" />
     <Compile Include="nilnul0\num\real\ext\func_\unary_\Erf4dbl.cs" />
     <Compile Include="nilnul0\num\real\ext\func_\unary_\erf_\OfNonneg4dbl.cs" />
@@ -350,30 +482,30 @@
     <Compile Include="dist_\borel_\_scoped_\scope_\OfExt4DblI.cs" />
     <Compile Include="dist_\borel_\_scoped_\Scope4dblI.cs" />
     <Compile Include="dist_\discrete_\nonfinite_\poisson\co_\IIndep.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma\str_\started_\indep_\equiscale\IAdd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma\str_\started_\indep_\equiscale\IAdd.cs" />
     <Compile Include="dist_\discrete_\nonfinite_\poisson\co_\indep\alesce_\IAdd.cs" />
     <Compile Include="dist_\finite_\INegBinomial.cs" />
     <Compile Include="dist_\borel_\Invertible4dblI.cs" />
     <Compile Include="dist_\borel_\Invertible4dblA.cs" />
     <Compile Include="dist_\borel_\invertible_\xpn_\NoPdf.cs" />
     <Compile Include="dist_\borel_\IPdf.cs" />
-    <Compile Include="dist_\borel_\pdf_\IUniform.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\IFit.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\ITest.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\IKolmogorovSmirnov.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\parsUnknown_\Ililliefors.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\parsUnknown_\IShapiroWilk.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\parsUnknown_\_LillieforsX.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\visual_\IHistogram.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\fit_\visual_\IQuantile9quantile.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\IStd.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\_StdX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\IUniform.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\IFit.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\ITest.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\IKolmogorovSmirnov.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\parsUnknown_\Ililliefors.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\parsUnknown_\IShapiroWilk.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\parsUnknown_\_LillieforsX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\visual_\IHistogram.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\fit_\visual_\IQuantile9quantile.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\IStd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\_StdX.cs" />
     <Compile Include="dist_\borel_\Pdf4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\Invertible4dblI.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Invertible4dblI.cs" />
     <Compile Include="dist_\borel_\Pert4dblI.cs" />
     <Compile Include="dist_\borel_\Pmf4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\Preportion4dblEs.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\Preportion4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\Preportion4dblEs.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\Preportion4dbl.cs" />
     <Compile Include="dist_\borel_\_domained_\Domain4dblI.cs" />
     <Compile Include="dist_\borel_\_invertible_\Invert4dblI.cs" />
     <Compile Include="dist_\borel_\_pdfable_\Density4dblI.cs" />
@@ -388,7 +520,7 @@
     <Compile Include="dist_\finite_\cmf_\Dbl2dbl.cs" />
     <Compile Include="dist_\finite_\Definite4dbl.cs" />
     <Compile Include="dist_\finite_\definite~\Definite%28T%29.cs" />
-    <Compile Include="dist_\Finite4dbl.cs" />
+    <Compile Include="dist_\Finite4dbl%28TSample.cs" />
     <Compile Include="dist_\finite_\Egal.cs" />
     <Compile Include="dist_\finite_\ICmfable.cs" />
     <Compile Include="dist_\finite_\IDefinite.cs" />
@@ -414,50 +546,60 @@
     <Compile Include="dist_\varianced\survey_\IIndependent.cs" />
     <Compile Include="dist_\varianced\survey_\indep\stream_\append\terminal\IFit.cs" />
     <Compile Include="dist_\varianced\survey_\indep\stream_\IAppend.cs" />
-    <Compile Include="dist_\_borel_\Cdf4dblI.cs" />
-    <Compile Include="dist_\_borel_\Prob4dblI%28T1.cs" />
-    <Compile Include="dist_\_borel_\Prob4dblI1.cs" />
+    <Compile Include="dist_\_cpfable_\Cpf4dblI.cs" />
+    <Compile Include="dist_\_borel_\pmf_\Prob4dblI%28T1.cs" />
+    <Compile Include="dist_\_borel_\Pmf4dblI1.cs" />
     <Compile Include="dist_\borel_\Pdfable4dblA.cs" />
-    <Compile Include="dist_\_borel_\prob_\OfFinite4DblI.cs" />
-    <Compile Include="dist_\_borel_\prob_\OfExt4DblI.cs" />
+    <Compile Include="dist_\_borel_\pmf_\prob_\OfFinite4DblI.cs" />
+    <Compile Include="dist_\_borel_\pmf_\prob_\OfExt4DblI.cs" />
     <Compile Include="dist_\_borel_\Sample4dblI.cs" />
     <Compile Include="dist_\finite_\_definite_\SampleA.cs" />
-    <Compile Include="dist_\_discrete_\Prob4dblI.cs" />
-    <Compile Include="dist_\_discrete_\Pmf%28T.cs" />
+    <Compile Include="dist_\_discrete_\Pmf4dblI%28T.cs" />
     <Compile Include="dist_\_discrete_\Pmf4dblI.cs" />
-    <Compile Include="dist_\_discrete_\Prob4dblI%28T1.cs" />
     <Compile Include="dist_\_finite\ICmf4dbl.cs" />
-    <Compile Include="dist_\_finite_\Prob4dblI.cs" />
+    <Compile Include="dist_\_finite_\Pmf4dblI.cs" />
     <Compile Include="IDists.cs" />
     <Compile Include="nilnul0\IStat.cs" />
     <Compile Include="nilnul0\geometry\planar\point\str_\plural_\funcish\LinearRegression.cs" />
     <Compile Include="nilnul0\geometry\planar\point\str_\plural_\IFuncish.cs" />
     <Compile Include="nilnul0\geometry\stereo\globe\point\DistanceFroBound_Squared.cs" />
+    <Compile Include="nilnul0\num\real_\nonneg\staT_\IMarginOfErr.cs" />
     <Compile Include="_dist\evt\IField.cs" />
     <Compile Include="_dist\evt\IOf.cs" />
     <Compile Include="_dist\evt_\IEmpty.cs" />
     <Compile Include="_dist\evt_\IOmega.cs" />
     <Compile Include="_dist\IMap.cs" />
-    <Compile Include="_dist\map_\INonnil.cs" />
+    <Compile Include="_dist\ISample.cs" />
+    <Compile Include="_dist\IPropense.cs" />
+    <Compile Include="_dist\Prob8quotient1.cs" />
+    <Compile Include="_dist\prob_\quotients\be_\NewFolder1\DensityFunctionX.cs" />
+    <Compile Include="_dist\prob_\quotients\be_\sum2one\Vow.cs" />
+    <Compile Include="_dist\PropensesX.cs" />
+    <Compile Include="_dist\propense_\Prob8quotient%28T.cs" />
+    <Compile Include="_dist\propense_\Quotient8quotient.cs" />
+    <Compile Include="_dist\propense_\INonnil.cs" />
     <Compile Include="dist\survey_\_RndsX.cs" />
-    <Compile Include="_dist\Prob8frac.cs" />
+    <Compile Include="_dist\propense_\IQuotient2quotient.cs" />
+    <Compile Include="_dist\Prob8quotient.cs" />
+    <Compile Include="_dist\prob_\IQuotient.cs" />
+    <Compile Include="_dist\prob_\quotient\ISortie.cs" />
     <Compile Include="_dist\prob~\real~\_MeasureX.cs" />
     <Compile Include="_dist\_evt\ISample.cs" />
     <Compile Include="_dist_\cmf_\xpn_\Nonordred.cs" />
     <Compile Include="_dist_\Invert5dblI.cs" />
     <Compile Include="_dist_\IPmf.cs" />
     <Compile Include="_dist_\NewFolder1\DistributionI.cs" />
-    <Compile Include="dist\dist\ConjugatePrior.cs" />
+    <Compile Include="dist\ConjugatePrior.cs" />
     <Compile Include="DistI.cs" />
     <Compile Include="dist_\borel\IPdf.cs" />
     <Compile Include="IDist.cs" />
     <Compile Include="dist\co\Conditional.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\avg_\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\IAim.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\IConstrained.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\sum_\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\avg_\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\IAim.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\IConstrained.cs" />
     <Compile Include="dist_\borel_\Cauchy4dbl.cs" />
-    <Compile Include="dist_\borel_\Empirical4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Empirical4dbl.cs" />
     <Compile Include="dist_\finite_\cmf_\Binomial4dbl.cs" />
     <Compile Include="dist_\finite_\cmf_\binomial_\IsofeasibleDbl.cs" />
     <Compile Include="dist_\finite_\IEgal.cs" />
@@ -507,7 +649,7 @@
     <Compile Include="_dist\prob~\!retiring\Prob.cs" />
     <Compile Include="_dist\prob~\!retiring\ProbabilityInRational.cs" />
     <Compile Include="_dist\prob~\!retiring\ProbabilityInRational1.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\_Preportion4dblX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\_Preportion4dblX.cs" />
     <Compile Include="_dist\prob~\!retiring\Rational.cs" />
     <Compile Include="_dist\prob~\ProbI.cs" />
     <Compile Include="_dist\evt_\IOmegaInLittle.cs" />
@@ -515,18 +657,18 @@
     <Compile Include="_dist\evt\EventSpaceI.cs" />
     <Compile Include="_dist\_evt\sample\SampleSpaceI.cs" />
     <Compile Include="_dist\evts_\EvtsI.cs" />
-    <Compile Include="_dist\map_\MeasureI.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform\sample_\RandomX.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform\sample_\Rnd.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\survey_\Slider.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform\sample_\RandomOrg.cs" />
+    <Compile Include="_dist\propense_\MeasureI.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform\sample_\RandomX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform\sample_\Rnd.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\survey_\Slider.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform\sample_\RandomOrg.cs" />
     <Compile Include="_dist_\ISample.cs" />
     <Compile Include="IStatistic.cs" />
     <Compile Include="dist\EstimandI.cs" />
     <Compile Include="dist\sample_\select\Generator.cs" />
     <Compile Include="dist\sample_\select\WeightedChoose.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\sample_\BoxMuller.cs" />
-    <Compile Include="_dist\map_\%28ceremony\Combo.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\BoxMuller.cs" />
+    <Compile Include="_dist\propense_\%28ceremony\Combo.cs" />
     <Compile Include="dist_\borel\confidenceInterval\varianceKnown\TwoSided.cs" />
     <Compile Include="nilnul0\num\real_\nonneg\matrix\Kendall.cs" />
     <Compile Include="dist_\_borel\Zscore.cs" />
@@ -536,19 +678,18 @@
     <Compile Include="dist\Variance.cs" />
     <Compile Include="dist\Deviation.cs" />
     <Compile Include="dist\Variation.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\Std4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\NewFolder1\BetaGeneralized - Copy.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\NewFolder1\Pert - Copy.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\Std4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\NewFolder1\BetaGeneralized - Copy.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\NewFolder1\Pert - Copy.cs" />
     <Compile Include="dist_\discrete_\RecurI.cs" />
     <Compile Include="dist_\discrete_\recur\DiscreteUniform.cs" />
     <Compile Include="dist_\discrete_\recur\eg\countable\Poisson.cs" />
     <Compile Include="dist_\discrete_\recur\eg\Poisson.cs" />
     <Compile Include="dist_\discrete_\recur\IDiscreteDensityFunction.cs" />
-    <Compile Include="dist_\borel_\cdf_\cdf_\NewFolder1\Cdf.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\NewFolder1\Cdf.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\CdfAndInverseI.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\CdfI.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\CdfInverseI.cs" />
-    <Compile Include="dist_\borel_\cdf_\cdf_\NewFolder1\Cdf_sortedDict.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\ComparerBySample.cs" />
     <Compile Include="dist_\_finite\cmf_\CumulativeDensitySequence.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\Definite.cs" />
@@ -556,8 +697,7 @@
     <Compile Include="dist_\discrete_\recur\rationalSample\DensityFunction_SortedDictionary.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\DistributionA.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\DistributionI.cs" />
-    <Compile Include="dist_\finite_\_CumulableDblX.cs" />
-    <Compile Include="dist_\finite_\cmf_\Frac2frac.cs" />
+    <Compile Include="dist_\finite_\cmf\of_\_PmfX.cs" />
     <Compile Include="_dist\_evt\sample\NewFolder1\SampleSpace.cs" />
     <Compile Include="_dist\_evt\sample\NewFolder1\SampleSpaceI.cs" />
     <Compile Include="Fit.cs" />
@@ -577,82 +717,82 @@
     <Compile Include="_dist\prob~\_prob\InQuotient.cs" />
     <Compile Include="_dist\prob~\_prob\ProbI.cs" />
     <Compile Include="_dist\prob~\_prob\RandomX.cs" />
-    <Compile Include="_dist\map_\%28ceremony\Event.cs" />
-    <Compile Include="_dist\map_\nonnil_\EventNotZero.cs" />
+    <Compile Include="_dist\propense_\quotient2quotient_\Event.cs" />
+    <Compile Include="_dist\propense_\nonnil_\EventNotZero.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\OrderBySample.cs" />
     <Compile Include="dist_\discrete_\recur\rationalSample\PdfI.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2dbl_\Pmf_sortedDicty.cs" />
+    <Compile Include="dist_\finite_\quotient2quotient_\PmfBySortedDict.cs" />
     <Compile Include="dist_\discrete_\recur\rational\Bag.cs" />
     <Compile Include="dist_\discrete_\recur\rational\BagNonEmpty.cs" />
     <Compile Include="dist_\discrete_\nonfinite_\NewFolder1\Poisson.cs" />
     <Compile Include="dist_\discrete_\_recur\Geometric_probDouble.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\avg_\avgGiven\RandomizeDataForGivenAverage.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\_algos\!retiring\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel_\boundaried\survey_\counted_\aim_\sum_\_algos\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\avg_\avgGiven\RandomizeDataForGivenAverage.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\sum_\_algos\!retiring\RandomizeNormalize.cs" />
+    <Compile Include="dist_\borel_\scoped\survey_\counted_\aim_\sum_\_algos\RandomizeNormalize.cs" />
     <Compile Include="dist_\_borel_\NewFolder1\ContinuumI.cs" />
     <Compile Include="dist_\borel_\IChiSquared.cs" />
     <Compile Include="dist_\borel_\ContinuumI.cs" />
     <Compile Include="dist_\borel_\EfI.cs" />
-    <Compile Include="dist_\borel_\pdf_\gamma\Pdf.cs" />
+    <Compile Include="dist_\borel_\pdfable_\gamma\Pdf.cs" />
     <Compile Include="dist_\borel\SurvialFunc.cs" />
     <Compile Include="dist_\borel_\expNormal\Pdf.cs" />
-    <Compile Include="dist_\borel_\pdf_\_normal_\Cdf.cs" />
-    <Compile Include="dist_\borel_\pdf_\_normal_\Pdf.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_normal_\Cdf.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_normal_\Pdf.cs" />
     <Compile Include="dist_\borel\SampleI.cs" />
     <Compile Include="dist_\borel\survey_\EmpiricalI.cs" />
-    <Compile Include="dist_\borel\survey_\KdeI.cs" />
+    <Compile Include="dist_\borel\survey_\IKernelDensityEstimate.cs" />
     <Compile Include="dist_\borel\survey_\_kde\KernelFunc.cs" />
     <Compile Include="dist_\borel_\Bates.cs" />
     <Compile Include="dist_\borel_\Descent.cs" />
-    <Compile Include="dist_\borel_\pdf_\Exp.cs" />
-    <Compile Include="dist_\borel_\pdf_\Gamma4dblI.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Exp.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Gamma4dblI.cs" />
     <Compile Include="dist_\borel_\IrinHall.cs" />
     <Compile Include="dist_\borel_\Linear.cs" />
     <Compile Include="dist_\borel_\Tee.cs" />
-    <Compile Include="dist_\borel_\pdf_\Triangular.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Triangular.cs" />
     <Compile Include="dist_\borel_\Uniform.cs" />
     <Compile Include="dist_\borel_\UniformEnclosedZeroOne.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform\duo\zip_\Distance.cs" />
-    <Compile Include="dist_\borel_\pdf_\_exp\Exp.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform\duo\zip_\Distance.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_exp\Exp.cs" />
     <Compile Include="dist_\IBorel.cs" />
     <Compile Include="dist_\borel\duo\Correlation.cs" />
     <Compile Include="dist_\borel\duo\correlation_\nil\VsIndependenc.cs" />
     <Compile Include="dist_\borel_\EvenCoin.cs" />
     <Compile Include="dist_\borel\co_\NormBernouli.cs" />
-    <Compile Include="dist_\borel_\pdf_\Normal4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\_normal_\Sample.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform\sample_\Generator.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Normal4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\_normal_\Sample.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform\sample_\Generator.cs" />
     <Compile Include="dist_\borel_\discrete_\finite_\bernoulli\of_\unary_\EvenBetZeroOne.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\sample_\Approach.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\sample_\_real\_approach\%28rndStreamPositionSlider\Series.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\sample_\_real\_approach\RndStreamWeightSlider.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\preportion\sample_\_real\_approach\SliderOfAugments.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\Approach.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\_real\_approach\%28rndStreamPositionSlider\Series.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\_real\_approach\RndStreamWeightSlider.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\_real\_approach\SliderOfAugments.cs" />
     <Compile Include="dist_\_borel_\_continuum\DistributionI.cs" />
     <Compile Include="dist_\borel_\_invertible_\CdfAndInverseI.cs" />
-    <Compile Include="dist_\_borel_\NewFolder1\CdfI.cs" />
+    <Compile Include="dist_\_borel_\cpf_\NewFolder1\CdfI.cs" />
     <Compile Include="dist_\borel_\_invertible_\CdfInverseI.cs" />
     <Compile Include="dist_\borel_\invertible_\DistributionA.cs" />
     <Compile Include="dist_\borel_\_invertible_\NewFolder1\DistributionI.cs" />
     <Compile Include="dist_\borel_\_pdfable_\NewFolder1\Pdf4dblI.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\std_\NewFolder1\NewFolder2\Beta2.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\std_\NewFolder1\NewFolder2\Beta2.cs" />
     <Compile Include="dist_\borel_\IBetaBinomial.cs" />
-    <Compile Include="dist_\borel_\pdf_\Beta4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\std_\NewFolder1\%28dbl\Beta3.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\std_\NewFolder1\%28dbl\Beta2.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\std_\Beta3.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\NewFolder1\BetaGeneralized.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\%28dbl\SpanBeta.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\concave_\NewFolder1\SpanBetaFirstType.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\%28rational\SpanBeta.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\concave_\rational_\SpanBetaFirstType.cs" />
-    <Compile Include="_dist\map_\%28ceremony\combo\EvtInt_ProbQ.cs" />
-    <Compile Include="_dist\map_\%28ceremony\combo\Evt_ProbQ.cs" />
-    <Compile Include="_dist\map_\%28ceremony\combo\IntDouble.cs" />
-    <Compile Include="_dist\map_\%28ceremony\%28empty\EvtProbDouble.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Beta4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\std_\NewFolder1\%28dbl\Beta3.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\std_\NewFolder1\%28dbl\Beta2.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\std_\Beta3.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\NewFolder1\BetaGeneralized.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\%28dbl\SpanBeta.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\concave_\NewFolder1\SpanBetaFirstType.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\%28rational\SpanBeta.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\concave_\rational_\SpanBetaFirstType.cs" />
+    <Compile Include="_dist\propense_\int2quotient_\EvtInt_ProbQ.cs" />
+    <Compile Include="_dist\propense_\prob8quotient_\Evt_ProbQ.cs" />
+    <Compile Include="_dist\propense_\int2dbl_\IntDouble.cs" />
+    <Compile Include="_dist\propense_\%28ceremony\%28empty\EvtProbDouble.cs" />
     <Compile Include="_dist\prob_\Prob%28r.cs" />
     <Compile Include="_dist\prob_\ProbDbl.cs" />
-    <Compile Include="_dist\prob_\quotient_\Prob%28.cs" />
-    <Compile Include="_dist_\Pmf8fracI.cs" />
+    <Compile Include="_dist\prob_\quotient\sortie_\Prob.OrderedSquence.cs" />
+    <Compile Include="_dist_\Pmf4quotientI.cs" />
     <Compile Include="_dist_\PmfI.cs" />
     <Compile Include="_dist_\pmf_\Prob4dblI.cs" />
     <Compile Include="_dist_\Pmf4dblI.cs" />
@@ -661,44 +801,44 @@
     <Compile Include="_dist_\_PmfI.cs" />
     <Compile Include="_dist\_evt_\SamplePointI.cs" />
     <Compile Include="dist_\borel_\cauchy_\Cauchy.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal_\NormalDistribution %285%29.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\Pert4dbl.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\MinModMax.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\MinModMaxLambda.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\MinModMax.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\MinModMaxLambda.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\Pert_miu.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\Pert_mu2.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\Riskamp.PertCache.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert\pert\RiskampX.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert_\WolframX.cs" />
-    <Compile Include="dist_\borel_\pdf_\beta_\pert_\wolfram_\WolframX.cs" />
-    <Compile Include="dist_\borel_\pdf_\trigon_\TriangleDistribution.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\sample_\op\Rand2Norm_BoxMullerTransform.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal_\NormalDistribution %285%29.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\Pert4dbl.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\MinModMax.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\MinModMaxLambda.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\MinModMax.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\MinModMaxLambda.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\Pert_miu.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\Pert_mu2.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\Riskamp.PertCache.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert\pert\RiskampX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert_\WolframX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\beta_\pert_\wolfram_\WolframX.cs" />
+    <Compile Include="dist_\borel_\pdfable_\trigon_\TriangleDistribution.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\sample_\op\Rand2Norm_BoxMullerTransform.cs" />
     <Compile Include="dist_\_borel_\_continuum\PdfI.cs" />
     <Compile Include="dist_\_borel_\_continuum\PmfI.cs" />
-    <Compile Include="dist_\borel_\pdf_\normal\sample_\Rand2Norm_BoxMullerTransform.cs" />
-    <Compile Include="dist_\borel\survey_\_realize\_constrained\_sum\!retiring\AlgoS.cs" />
-    <Compile Include="dist_\borel\survey_\_realize\_constrained\_sum\_algos\RandomizeNormalize.cs" />
-    <Compile Include="dist_\borel_\CdfI1.cs" />
+    <Compile Include="dist_\borel_\pdfable_\normal\sample_\Rand2Norm_BoxMullerTransform.cs" />
+    <Compile Include="dist_\borel_\intervaled_\nonneg\survey_\counted_\aim_\_sum\_algos\!retiring\AlgoS.cs" />
+    <Compile Include="dist_\borel_\intervaled_\nonneg\survey_\counted_\aim_\_sum\_algos\RandomizeNormalize.cs" />
+    <Compile Include="dist_\_borel_\cpf_\NewFolder1\CdfI1.cs" />
     <Compile Include="dist_\borel\cdf\Inverse.cs" />
-    <Compile Include="dist_\borel_\cdf_\%28retiring\Cdf.cs" />
-    <Compile Include="dist_\borel_\cdf_\%28retiring\CdfI.cs" />
-    <Compile Include="dist_\borel_\cdf_\%28retiring\cumulativeDensity.cs" />
-    <Compile Include="dist_\borel_\cdf_\Spanned.cs" />
-    <Compile Include="dist_\borel_\cdf_\spanned\Inverse.cs" />
-    <Compile Include="dist_\borel_\cdf_\_spanned_\%28retiring\IntervalCdf.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf_\%28retiring\CdfI1.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf_\%28retiring\CdfI.cs" />
+    <Compile Include="dist_\borel_\_pdfable\cdf_\%28retiring\CumulativeDensityI.cs" />
+    <Compile Include="dist_\borel_\scoped_\SpannedA.cs" />
+    <Compile Include="dist_\borel_\scoped\Inverse.cs" />
+    <Compile Include="dist_\borel_\_scoped_\%28retiring\IntervalCdf.cs" />
     <Compile Include="_dist_\SupportI.cs" />
     <Compile Include="dist_\_borel_\_continuum_\Density.cs" />
-    <Compile Include="dist_\borel_\discrete_\FiniteDbl.cs" />
+    <Compile Include="dist_\Finite4dbl.cs" />
     <Compile Include="dist_\finite\be_\Definite.cs" />
     <Compile Include="dist_\multivar_\finite_\Conditional.cs" />
     <Compile Include="dist_\finite\of_\unary_\Purge.cs" />
     <Compile Include="dist_\finite\of_\unary_\purge\Ed.cs" />
-    <Compile Include="dist_\finite\of_\feasible_\freq_\FroBag.cs" />
-    <Compile Include="dist_\_finite\pmf\of_\feasible_\Freq.cs" />
+    <Compile Include="dist_\finite\of_\occurs_\_FroBagX.cs" />
+    <Compile Include="dist_\_finite\pmf\of_\feasible_\_FroOccursX.cs" />
     <Compile Include="dist_\finite_\egal\survey_\SelectMultiple.cs" />
-    <Compile Include="dist_\borel_\Empirical8frac.cs" />
+    <Compile Include="dist_\borel_\pdfable_\Empirical4quotient.cs" />
     <Compile Include="dist_\finite_\multivar_\Bival.cs" />
     <Compile Include="dist_\finite_\multivar_\bival\Observation.cs" />
     <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Conviction.cs" />
@@ -706,32 +846,31 @@
     <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Portion.cs" />
     <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Support.cs" />
     <Compile Include="dist_\finite_\multivar_\bival\observation\str\%28dataMining\Confidence.cs" />
-    <Compile Include="dist_\borel_\cdf_\cdf_\Cdf.cs" />
-    <Compile Include="dist_\borel_\empirical\of_\observes_\Pmf.cs" />
-    <Compile Include="dist_\finite_\prob8dec_\%28ceremony\PositiveSample_NotEmptyCollection2.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric_\NewFolder1\Cdf.cs" />
+    <Compile Include="dist_\borel_\pdfable_\empiric\of_\pmf_\Pmf.cs" />
+    <Compile Include="dist_\finite_\prob8quotient_\%28ceremony\PositiveSample_NotEmptyCollection2.cs" />
     <Compile Include="_dist\map\ComparerByProb.cs" />
-    <Compile Include="dist_\finite_\prob8dec_\Definite%28T%29.cs" />
-    <Compile Include="dist_\finite_\prob8dec_\DensityFunction%28TSample.cs" />
-    <Compile Include="_dist\prob_\fracs\be_\DensityFunctionX.cs" />
-    <Compile Include="_dist\map_\%28ceremony\Event%28T.cs" />
+    <Compile Include="dist_\finite_\prob8quotient_\Definite%28T%29.cs" />
+    <Compile Include="dist_\finite_\prob8quotient_\DensityFunction%28TSample.cs" />
+    <Compile Include="_dist\prob_\quotients\be_\Sum2one.cs" />
+    <Compile Include="_dist\propense_\prob8quotient_\Event%28T.cs" />
     <Compile Include="_dist\Events.cs" />
     <Compile Include="_dist_\pmf_\%28frac\PmfI%28T.cs" />
     <Compile Include="_dist\prob_\quotient_\Prob.cs" />
-    <Compile Include="_dist\prob_\fracs\ProbSet.cs" />
-    <Compile Include="dist_\borel_\pdf_\uniform_\prob\sample_\%28\Random.cs" />
-    <None Include="dist_\finite_\cmf_\frac2frac_\%28ceremony\Sample_NotEmptyCollection.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2frac_\%28ceremony\SampleCount.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2frac_\%28ceremony\SampleCountPositive.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2frac_\%28ceremony\SamplePositive_inheritSampleCount.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2frac_\%28ceremony\SetOrderedByCount.cs" />
-    <Compile Include="dist_\finite\of_\_feasy\SampleCount%28T.cs" />
-    <Compile Include="dist_\finite\of_\_feasy\SampleCountPositive.cs" />
-    <Compile Include="dist_\finite\of_\_feasy\SampleCountPositive2.cs" />
+    <Compile Include="_dist\prob_\quotients\ProbSet.cs" />
+    <Compile Include="dist_\borel_\pdfable_\uniform_\prob\sample_\%28\Random.cs" />
+    <None Include="dist_\finite_\cmf_\quotient2quotient_\%28ceremony\Sample_NotEmptyCollection.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\%28ceremony\SampleCount.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\%28ceremony\SampleCountPositive.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\%28ceremony\SamplePositive_inheritSampleCount.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\%28ceremony\SetOrderedByCount.cs" />
+    <Compile Include="dist_\finite\of_\_occurs\SampleCount%28T.cs" />
+    <Compile Include="dist_\finite\of_\_occurs\SampleCountPositive.cs" />
+    <Compile Include="dist_\finite\of_\_occurs\SampleCountPositive2.cs" />
     <Compile Include="dist_\finite_\%28retiring\%28cermony\Finite.cs" />
     <Compile Include="dist_\_finite\pmf_\ArgDouble.cs" />
     <Compile Include="dist_\finite\co\Pearson correlation coefficient.cs" />
     <Compile Include="dist_\finite\ISurvey.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\boundSum_\RandomizeNormalize.cs" />
     <Compile Include="dist_\finite\SampleI.cs" />
     <Compile Include="dist_\finite_\egal\survey_\ShuffleI.cs" />
     <Compile Include="dist_\finite_\egal\survey_\shuffle_\%28knuth\NewFolder1\Shuffle.cs" />
@@ -745,20 +884,20 @@
     <Compile Include="dist_\finite_\IFiniteDensityFunction.cs" />
     <Compile Include="dist_\finite_\cmf_\int2dbl_\%28\Cdf.cs" />
     <Compile Include="dist_\finite_\cmf_\int2dbl_\%28\Pmf.cs" />
-    <Compile Include="dist_\finite_\cmf_\frac2frac_\FiniteCdf_rational2.cs" />
+    <Compile Include="dist_\finite_\cmf_\quotient2quotient_\NewFolder1\FiniteCdf_rational2.cs" />
     <Compile Include="dist_\borel_\_finite\NewFolder1\FiniteDensityFunction_rational.cs" />
     <Compile Include="dist_\finite_\occurs_\Natural.cs" />
     <Compile Include="dist_\finite_\cmf_\int2dbl_\Cdf.cs" />
     <Compile Include="dist_\finite_\cmf_\int2dbl_\Pmf.cs" />
     <Compile Include="dist_\borel_\RandomVar.cs" />
-    <Compile Include="_dist\map_\%28ceremony\SampleT_MeasureQ%28T.cs" />
+    <Compile Include="_dist\propense_\prob8quotient_\SampleT_MeasureQ%28T.cs" />
     <Compile Include="dist_\finite_\egal\sample_\Sample_froBag.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_boundSum\Algos.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_boundSum\_algos\!retiring\Mean2randomSample.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_boundSum\_algos\ByProportionalSelect.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_boundSum\_algos\ByShuffle.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_sum\_algorithms\!retiring\ByCut.cs" />
-    <Compile Include="dist_\finite\survey_\_constraint\_sum\_algorithms\ByCut.cs" />
+    <Compile Include="dist_\finite_\cmf_\scoped\survey_\counted_\aim_\_avg\Algos.cs" />
+    <Compile Include="dist_\finite_\cmf_\scoped\survey_\counted_\aim_\_avg\_algos\!retiring\Mean2randomSample.cs" />
+    <Compile Include="dist_\finite_\cmf_\scoped\survey_\counted_\aim_\_avg\_algos\ByProportionalSelect.cs" />
+    <Compile Include="dist_\finite_\cmf_\scoped\survey_\counted_\aim_\_avg\_algos\ByShuffle.cs" />
+    <Compile Include="dist_\finite\survey_\aim_\_sum\_algorithms\!retiring\ByCut.cs" />
+    <Compile Include="dist_\finite\survey_\aim_\_sum\_algorithms\ByCut.cs" />
     <Compile Include="dist_\finite_\cmf_\binomial_\NewFolder1\migrated_\Binomial.cs" />
     <Compile Include="dist_\finite_\cmf_\binomial_\NewFolder1\8quotient\Binomial.cs" />
     <Compile Include="dist_\finite_\Bernoulli4dbl.cs" />
@@ -779,9 +918,9 @@
     <Compile Include="dist_\finite\survey_\shuffle_\NoPlaceBack.cs" />
     <Compile Include="dist_\finite\survey_\shuffle_\OrdByGuid.cs" />
     <Compile Include="dist_\finite_\definite~\SinglePoint.cs" />
-    <Compile Include="dist_\finite\of_\feasible_\freq_\NewFolder1\FroBag.cs" />
-    <Compile Include="dist_\finite\of_\feasible_\freq_\_ByOccurrenceX.cs" />
-    <Compile Include="dist_\finite_\RationalProb.cs" />
+    <Compile Include="dist_\finite\of_\occurs_\NewFolder1\FroBag.cs" />
+    <Compile Include="dist_\finite\of_\occurs_\_IndexAsSampleX.cs" />
+    <Compile Include="dist_\finite_\prob8quotient_\RationalProb.cs" />
     <Compile Include="nilnul0\geometry\planar\circle\Sample.cs" />
     <Compile Include="nilnul0\geometry\planar\zone_\disc\point\convert_\UniformSqrt.cs" />
     <Compile Include="nilnul0\geometry\planar\zone_\disc\point\Sample.cs" />
@@ -791,7 +930,7 @@
     <Compile Include="nilnul0\geometry\planar\point\Sample.cs" />
     <Compile Include="nilnul0\geometry\planar\rect\Sample.cs" />
     <Compile Include="nilnul0\geometry\planar\rect\sample_\PoissonDisc.cs" />
-    <Compile Include="nilnul0\geometry\planar\triangle\Sample.cs" />
+    <Compile Include="nilnul0\geometry\planar\zone_\trigon\Sample.cs" />
     <Compile Include="nilnul0\obj\bag\be_\TotalPositive.cs" />
     <Compile Include="nilnul0\obj\bag\be_\totalPositive\Vow.cs" />
     <Compile Include="nilnul0\obj\bag\be_\totalPositive\vow\Ee.cs" />
@@ -809,67 +948,84 @@
   <ItemGroup>
     <Folder Include="dist\!inbox\" />
     <Folder Include="dist\co_\" />
+    <Folder Include="dist\dist\" />
     <Folder Include="dist\re_\" />
     <Folder Include="dist\sample\" />
     <Folder Include="dist\survey\stream_\indep_\" />
+    <Folder Include="dist_\bivar_\borel_\normal\density\" />
     <Folder Include="dist_\borel\of_\binary_\" />
     <Folder Include="dist_\borel\op_\" />
     <Folder Include="dist_\borel\re_\equiv_\" />
     <Folder Include="dist_\borel\theorems\" />
     <Folder Include="dist_\borel_\boltzmann_\" />
-    <Folder Include="dist_\borel_\cdf_\%28retiring\NewFolder1\" />
     <Folder Include="dist_\borel_\chiSq\co_\indep_\" />
     <Folder Include="dist_\borel_\chiSq\str\" />
     <Folder Include="dist_\borel_\chiSq\str_\started\to_\" />
+    <Folder Include="dist_\borel_\contiguous_\singular_\" />
     <Folder Include="dist_\borel_\densible\" />
     <Folder Include="dist_\borel_\ef_\" />
     <Folder Include="dist_\borel_\invertible\" />
-    <Folder Include="dist_\borel_\pdf_\beta_\%28retiring\" />
-    <Folder Include="dist_\borel_\pdf_\beta_\convex_\" />
-    <Folder Include="dist_\borel_\pdf_\exp\str_\started\to_\" />
-    <Folder Include="dist_\borel_\pdf_\exp\str_\started_\iid\" />
-    <Folder Include="dist_\borel_\pdf_\gamma\co_\indep\alesce_\" />
-    <Folder Include="dist_\borel_\pdf_\gamma\str_\started\to_\" />
-    <Folder Include="dist_\borel_\pdf_\normal\co_\indep_\" />
-    <Folder Include="dist_\borel_\pdf_\normal_\std\str_\started\to_\" />
-    <Folder Include="dist_\borel_\pdf_\normal_\std\str_\started_\indep_\" />
-    <Folder Include="dist_\borel_\pdf_\normal_\_std_\_cdf\" />
-    <Folder Include="dist_\borel_\pdf_\uniform_\%28ceremony\" />
-    <Folder Include="dist_\borel_\pdf_\uniform_\%28retiring\" />
-    <Folder Include="dist_\borel_\pdf_\uniform_\preportion\sample_\%28retiring\" />
-    <Folder Include="dist_\borel_\pdf_\_beta\" />
+    <Folder Include="dist_\borel_\nonpdfable_\" />
+    <Folder Include="dist_\borel_\pdfable_\beta_\%28retiring\" />
+    <Folder Include="dist_\borel_\pdfable_\beta_\convex_\" />
+    <Folder Include="dist_\borel_\pdfable_\empiric\of_\survey_\" />
+    <Folder Include="dist_\borel_\pdfable_\empiric\of_\_ofOccur\" />
+    <Folder Include="dist_\borel_\pdfable_\exp\co_\indep\subtract\" />
+    <Folder Include="dist_\borel_\pdfable_\exp\str_\started\to_\" />
+    <Folder Include="dist_\borel_\pdfable_\exp\str_\started_\iid\" />
+    <Folder Include="dist_\borel_\pdfable_\gamma\co_\indep\alesce_\" />
+    <Folder Include="dist_\borel_\pdfable_\gamma\str_\started\to_\" />
+    <Folder Include="dist_\borel_\pdfable_\normal\co_\indep_\" />
+    <Folder Include="dist_\borel_\pdfable_\normal_\std\str_\started\to_\" />
+    <Folder Include="dist_\borel_\pdfable_\normal_\std\str_\started_\indep_\" />
+    <Folder Include="dist_\borel_\pdfable_\normal_\_std_\_cdf\" />
+    <Folder Include="dist_\borel_\pdfable_\quotient2quotient_\" />
+    <Folder Include="dist_\borel_\pdfable_\uniform_\%28ceremony\" />
+    <Folder Include="dist_\borel_\pdfable_\uniform_\%28retiring\" />
+    <Folder Include="dist_\borel_\pdfable_\uniform_\preportion\sample_\%28retiring\" />
+    <Folder Include="dist_\borel_\pdfable_\_beta\" />
     <Folder Include="dist_\borel_\rv\" />
     <Folder Include="dist_\borel_\studenTee_\" />
-    <Folder Include="dist_\borel_\_cdf\" />
+    <Folder Include="dist_\borel_\_pdfable\cdf\inverse\" />
+    <Folder Include="dist_\borel_\_pdfable\cdf_\cdf_\" />
+    <Folder Include="dist_\borel_\_pdfable\cdf_\_spanned_\" />
     <Folder Include="dist_\borel~\" />
     <Folder Include="dist_\discrete_\recur\rational\event_\" />
     <Folder Include="dist_\discrete_\recur_\" />
     <Folder Include="dist_\discrete_\_recur\_subS\" />
+    <Folder Include="dist_\finite\of_\occurences\" />
     <Folder Include="dist_\finite\of_\_map\" />
+    <Folder Include="dist_\finite\of_\_occurences\" />
     <Folder Include="dist_\finite\op_\" />
     <Folder Include="dist_\finite\sample_\" />
     <Folder Include="dist_\finite\_cdf\" />
     <Folder Include="dist_\finite_\bivariate\" />
-    <Folder Include="dist_\finite_\cmf\" />
     <Folder Include="dist_\finite_\cmf_\binomial_\isofeasible\" />
-    <Folder Include="dist_\finite_\cmf_\dec2dec_\" />
     <Folder Include="dist_\finite_\cmf_\int2dbl_\%28\intDouble\" />
+    <Folder Include="dist_\finite_\cmf_\quotient2quotient_\bySortie_\" />
     <Folder Include="dist_\finite_\cmf_\_binomial\_cmf\" />
+    <Folder Include="dist_\finite_\cpfable\" />
     <Folder Include="dist_\finite_\definite\sample_\" />
     <Folder Include="dist_\finite_\multivar_\bival\observations\" />
     <Folder Include="dist_\finite_\multivar_\bival\observation\set\" />
     <Folder Include="dist_\finite_\occurs\" />
     <Folder Include="dist_\finite_\samplE_\" />
-    <Folder Include="dist_\finite_\_cmf\" />
+    <Folder Include="dist_\finite_\_quotient2quotient\" />
+    <Folder Include="dist_\_borel\cpf_\contiguous_\uniform_\" />
+    <Folder Include="dist_\_borel\cpf_\noncontiguous_\contiguous_\" />
+    <Folder Include="dist_\_borel_\cpf\theorem_\" />
+    <Folder Include="dist_\_discrete_\NewFolder1\" />
     <Folder Include="dist_\_finite\cmf\" />
     <Folder Include="dist_\_finite\map_\" />
-    <Folder Include="dist_\_finite\pmf\of_\feasible_\freq_\" />
     <Folder Include="dist_\_finite\_cmf\" />
+    <Folder Include="dist_\_finite\_pmf\" />
+    <Folder Include="dist_\_finite_\NewFolder1\" />
+    <Folder Include="nilnul0\geometry\planar\NewFolder1\" />
     <Folder Include="nilnul0\geometry\planar\points_\" />
     <Folder Include="nilnul0\geometry\planar\point\b\nonZero\" />
     <Folder Include="nilnul0\geometry\planar\point\str_\plural\" />
-    <Folder Include="nilnul0\geometry\planar\triangle\b\" />
-    <Folder Include="nilnul0\geometry\planar\triangle\right\" />
+    <Folder Include="nilnul0\geometry\planar\zone_\trigon\b\" />
+    <Folder Include="nilnul0\geometry\planar\zone_\trigon\right\" />
     <Folder Include="nilnul0\geometry\stereo\globe\point\NewFolder1\" />
     <Folder Include="nilnul0\num\real\ext\func_\unary_\erf_\NewFolder1\" />
     <Folder Include="nilnul0\num\real\ext\func_\unary_\sq_\neg_\exp\incomplete_\originated\" />
@@ -889,6 +1045,10 @@
     <Folder Include="_dist\prob\str\_vow_\" />
     <Folder Include="_dist\prob~\%28measure\measure\" />
     <Folder Include="_dist\prob~\%28measure\_measure\" />
+    <Folder Include="_dist\propenses\of_\" />
+    <Folder Include="_dist\propense\" />
+    <Folder Include="_dist\propense_\%28ceremony\combo\" />
+    <Folder Include="_dist\propense_\possible\" />
     <Folder Include="_dist\_evt\_sample\" />
     <Folder Include="_dist\_prob_\" />
   </ItemGroup>

@@ -30,7 +30,7 @@ namespace nilnul.stat._dist.prob.str.be_
 
 		}
 
-		static public bool Be(IEnumerable<Prob8frac> measures)
+		static public bool Be(IEnumerable<Prob8quotient> measures)
 		{
 			
 			return nilnul.obj.seq._AsCosX.AsCos(measures).All(

@@ -40,7 +40,7 @@ namespace nilnul.stat.dist_.finite_
 			return prob4true - prob4true*prob4true;
 		}
 
-		public double pmf(bool headOrTail) {
+		public double prob(bool headOrTail) {
 			if (headOrTail)
 			{
 				return prob4true;
@@ -56,7 +56,7 @@ namespace nilnul.stat.dist_.finite_
 		public bool sample()
 		{
 			///this is a sample
-			return stat.dist_.borel_.pdf_.uniform_._Preportion4dblX.Sample() < this.prob4true._val;
+			return stat.dist_.borel_.pdfable_.uniform_._Preportion4dblX.Sample() < this.prob4true._val;
 			
 		}
 	}

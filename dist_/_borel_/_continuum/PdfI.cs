@@ -5,7 +5,13 @@ using System.Text;
 
 namespace nilnul.prob.doubleProb
 {
-	public partial interface PdfI<T>
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	///
+	[Obsolete()]
+	public  interface PdfI<T>
 	{
 		Prob density(T sample);
 

@@ -9,4 +9,6 @@ namespace nilnul.prob_.finite.co
 	class PearsonCorrelationCoefficient
 	{
 	}
+
+
 }

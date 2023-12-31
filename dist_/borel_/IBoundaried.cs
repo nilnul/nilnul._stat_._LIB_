@@ -6,6 +6,9 @@
 	/// alias:
 	///		confined
 	///		constrained;
+	///		clamped
+	///		scoped
+	///		squeezed
 	///		
-	public interface IBoundaried:IBorel { }
+	public interface IBoundaried:intervaled_.IBounded { }
 }

@@ -12,6 +12,7 @@
 	///		cmf
 	///			cumulative mass function, like <see cref="borel.ICdf"/>
 	///		ICumulable
+	///		cpf
 	public interface ICmfable
 	{
 	}
@@ -19,6 +20,8 @@
 	public interface Cmfable4dblI<T>
 		:
 		Finite4dblI<T>
+		,
+		_cmfable_.Cmf4dblI
 	{ }
 
 

@@ -15,7 +15,7 @@ namespace nilnul.prob.rationalMeasure.empirical
 {
 	/// <summary>
 	/// </summary>
-	public partial class CumulativeDensityBenchmarks
+	public  class CumulativeDensityBenchmarks
 		: nilnul.prob.rationalProb.rationalSample.Cdf_sortedDict
 	{
 		private CumulativeDensityBenchmarks(List<Event> events)

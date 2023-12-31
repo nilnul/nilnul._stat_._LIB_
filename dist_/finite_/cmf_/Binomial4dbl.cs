@@ -111,7 +111,7 @@ namespace nilnul.stat.dist_.finite_.cmf_
 
 
 			return _cmfCached.boxed.First(
-				x=>x.Value>= borel_.pdf_.uniform_._Preportion4dblX.Sample()
+				x=>x.Value>= borel_.pdfable_.uniform_._Preportion4dblX.Sample()
 			).Key;
 		}
 
@@ -121,7 +121,7 @@ namespace nilnul.stat.dist_.finite_.cmf_
 		/// <param name="k"></param>
 		/// <returns></returns>
 		/// <exception cref="dist.sample_.xpn_.NotInDomain"></exception>
-		public double pmf(uint k)
+		public double prob(uint k)
 		{
 			if (k>_totalTimes)
 			{

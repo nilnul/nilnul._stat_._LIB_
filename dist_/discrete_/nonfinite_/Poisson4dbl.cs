@@ -43,7 +43,7 @@ namespace nilnul.stat.dist_.discrete_.nonfinite_
 
 		
 
-		public double pmf(uint sample)
+		public double prob(uint sample)
 		{
 			return Math.Pow(_lambda.ee, sample) * Math.Exp(
 				-this.lambda
@@ -126,7 +126,7 @@ return k − 1.
 
 				///for shrinked time, the lambd for exp distribution shall be shrinked as well;
 				///
-				var remainedTimeFraction=nilnul.stat.dist_.borel_.pdf_.uniform_._Preportion4dblX.Sample();  // some person come;
+				var remainedTimeFraction=nilnul.stat.dist_.borel_.pdfable_.uniform_._Preportion4dblX.Sample();  // some person come;
 				remainedTime *= remainedTimeFraction;  //  for shrinked remained time;
 				/*
 				 If for every t > 0 the number of arrivals in the time interval [0, t] follows the Poisson distribution with mean λt, then the sequence of inter-arrival times are independent and identically distributed exponential random variables having mean 1/λ

@@ -4,7 +4,7 @@
 		:
 		Borel4dblI
 		,
-		_discrete_.Prob4dblI
+		_dist_.Pmf4dblI<double>
 		//,
 		//_pdfable_.Pdf4dblI
 

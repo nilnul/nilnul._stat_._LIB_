@@ -6,7 +6,10 @@ using System.Text;
 
 namespace nilnul.prob.rationalProb.rationalSample
 {
-	public partial class CumulativeDensitySequence
+	/// <summary>
+	/// this is cmf, not cdf.
+	/// </summary>
+	public class CumulativeDensitySequence
 	{
 
 		public Prob.OrderedSquence cumulativeDensities;
