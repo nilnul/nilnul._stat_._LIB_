@@ -1,4 +1,4 @@
-﻿using nilnul.obj.str;
+using nilnul.obj.str;
 using nilnul.rel_.dict;
 using nilnul.stat._dist_;
 using System;
@@ -7,6 +7,11 @@ using System.Linq;
 
 namespace nilnul.stat.dist_.finite.of_
 {
+	/// <summary>
+	/// many samples.
+	/// </summary>
+	/// vs:
+	///		<see cref="IOfOccurs"/>, where same evt maps to a count, whileas for this, same sample can reappear later.
 	static public class _OfSurveyX
 	{
 

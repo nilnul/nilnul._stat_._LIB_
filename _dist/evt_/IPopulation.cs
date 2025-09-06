@@ -1,10 +1,10 @@
-﻿namespace nilnul.stat._dist._event
+namespace nilnul.stat._dist._event
 {
 	/// <summary>
 	/// 
 	/// </summary>
 	public interface IPopulation
-		:nilnul.collection._measure_.SpaceI // omega
+		:nilnul.collective._measure_.SpaceI // omega
 
 	{ }
 }

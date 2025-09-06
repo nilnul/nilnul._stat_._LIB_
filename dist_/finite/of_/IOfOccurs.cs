@@ -1,6 +1,7 @@
-﻿namespace nilnul.stat.dist_.finite.of_
+namespace nilnul.stat.dist_.finite.of_
 {
 	/// <summary>
+	/// a str of samples, some of which might occur multiple times;
 	/// sample with a count of how many times it occurs;
 	/// the input is a bag, a special measure;
 	/// </summary>

@@ -1,4 +1,4 @@
-﻿using nilnul.num.real;
+using nilnul.num.real;
 using nilnul.num.real.bound_;
 using nilnul.num.real.ext;
 using nilnul.num.real_;
@@ -47,8 +47,8 @@ namespace nilnul.stat.dist_.borel_.pdfable_
 
 			this._indicPlus = indicPlus;
 			this._scale = scale;
-			this._densityCached = new num.real.ext.func_.unary_.gamma._scaled.integrand.Denominated4dbl(indicPlus,scale);
-			this._cdfCached = new num.real.ext.func_.unary_.gamma._scaled.integrand.denominated.Incomplete4dbl(indicPlus,scale);
+			this._densityCached = new num.real.ext.fn_.gamma._scaled.integrand.Denominated4dbl(indicPlus,scale);
+			this._cdfCached = new num.real.ext.fn_.gamma._scaled.integrand.denominated.Incomplete4dbl(indicPlus,scale);
 			this._rndCached = borel_.pdfable_.uniform_.Preportion4dblEs.Get0th();
 
 		}
@@ -114,7 +114,7 @@ namespace nilnul.stat.dist_.borel_.pdfable_
 
 
 
-		nilnul.num.real.ext.func_.unary_.gamma._scaled.integrand.Denominated4dbl _densityCached;
+		nilnul.num.real.ext.fn_.gamma._scaled.integrand.Denominated4dbl _densityCached;
 
 		/// <summary>
 		/// 
@@ -186,7 +186,7 @@ namespace nilnul.stat.dist_.borel_.pdfable_
 		}
 
 
-		nilnul.num.real.ext.func_.unary_.gamma._scaled.integrand.denominated.Incomplete4dbl _cdfCached;
+		nilnul.num.real.ext.fn_.gamma._scaled.integrand.denominated.Incomplete4dbl _cdfCached;
 
 		public double _cdf_0finite(double upperBound)
 		{

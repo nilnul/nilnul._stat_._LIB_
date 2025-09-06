@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +7,16 @@ using System.Threading.Tasks;
 namespace nilnul.stat.dist_
 {
 	/// <summary>
-	/// the non-trivia sigmable field: {phi,omega }; and its meause is {0,1} 
+	/// the non-trivia sigmable field: {phi,omega }; and its measure is {0,1} 
 	/// </summary>
 	/// alias:
 	///		definite
+	///		definitude
 	///		trivia
-	///		naive
+	///		naïve
+	///		degenerated
+	///		regressed
+	///		
 	public interface ITrivia:IDist
 	{
 	}

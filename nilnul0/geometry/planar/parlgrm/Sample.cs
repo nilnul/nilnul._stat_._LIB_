@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +7,9 @@ using PointD = nilnul.geometry.planar.Point4dbl;
 using nilnul.geometry.planar.grad;
 using nilnul.geometry.planar.zone_;
 //using nilnul.geometry.planar.zone_.polygon_.tetra_;
-using nilnul.geometry.planar.cycle_.gon_.tetra_;
+//using nilnul.geometry.planar.cycle_.gon_.tetra_;
 using nilnul.geometry.planar.facet_;
+using nilnul.geometry.planar.cycle_.gon_.quad_;
 
 namespace nilnul.geometry.planar.parlgrm
 {

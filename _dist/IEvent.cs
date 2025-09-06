@@ -1,4 +1,4 @@
-﻿namespace nilnul.stat._dist
+namespace nilnul.stat._dist
 {
 	/// shall we use this as <see cref="_dist.IMap"/>?
 	///
@@ -15,6 +15,6 @@
 	///		evt
 	///		
 	public interface IEvent
-		:nilnul.collection._measure_.SpaceI
+		:nilnul.collective._measure_.SpaceI
 	{ }
 }

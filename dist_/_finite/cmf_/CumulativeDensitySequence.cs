@@ -1,4 +1,4 @@
-﻿using nilnul.set;
+using nilnul.set;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,8 @@ namespace nilnul.prob.rationalProb.rationalSample
 	/// <summary>
 	/// this is cmf, not cdf.
 	/// </summary>
+	///
+	[Obsolete()]
 	public class CumulativeDensitySequence
 	{
 

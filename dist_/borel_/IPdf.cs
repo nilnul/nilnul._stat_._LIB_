@@ -1,4 +1,4 @@
-﻿namespace nilnul.stat.dist_.borel_
+namespace nilnul.stat.dist_.borel_
 {
 	/// <summary>
 	/// 
@@ -13,6 +13,8 @@
 	/// <remarks>
 	/// a <see cref="_borel.ICpf"/> that is continous, not just right continuous;
 	/// </remarks>
+	/// alias:
+	///		continuous
 	public interface IPdf
 		:
 		//IBorel
@@ -20,4 +22,6 @@
 		//,
 		contiguous_.IPdfable
 	{ }
+
+
 }

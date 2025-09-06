@@ -1,4 +1,4 @@
-﻿//using nilnul.prob.doubleProb.doubleSample;
+//using nilnul.prob.doubleProb.doubleSample;
 using nilnul.num.real.ext;
 using nilnul.num.real.ext.func_.binary_.beta._spanned_;
 using nilnul.prob.doubleProb;
@@ -109,7 +109,14 @@ namespace nilnul.stat.dist_.borel_.pdfable_
 		}
 		public double var()
 		{
-			return a * b / ((a + b) * (a + b) * (a + b + 1));
+			return a * b / (
+				(a + b) * (a + b) * (a + b + 1)
+			);
+
+			var m = mean();
+			return (m - a) * (b - m) / 7;
+
+
 		}
 
 		//static public double Density(double x, double a, double b)

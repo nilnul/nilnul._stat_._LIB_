@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,7 @@ namespace nilnul.prob.doubleProb.doubleSample.distributions
 	/// <summary>
 	/// on Normal Distribution
 	/// </summary>
+	/// 
 	public partial class MultiVariateNormal
 	{
 

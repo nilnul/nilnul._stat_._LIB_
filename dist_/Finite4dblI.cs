@@ -1,6 +1,7 @@
-﻿namespace nilnul.stat.dist_
+namespace nilnul.stat.dist_
 {
 	/// <summary>
+	/// the measure is double.
 	/// typical sample's type is num/int;
 	/// </summary>
 	/// <typeparam name="T"></typeparam>

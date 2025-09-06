@@ -1,4 +1,4 @@
-﻿using nilnul.obj;
+using nilnul.obj;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +17,16 @@ namespace nilnul.stat._dist.probs.be.vow_
 		{
 		}
 
-		
+
+		static public BeDefault<TBe> Unison
+		{
+			get
+			{
+				return nilnul._obj.typ_._UnisonX<BeDefault<TBe>>.Unison;
+			}
+		}
+
+
+
 	}
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ using nilnul.num;
 using N = nilnul.Num1;
 using nilnul.stat._dist_;
 using System.Numerics;
-using nilnul.collection.family_.field_.sigmable_;
+//using nilnul.collection.family_.field_.sigmable_;
 
 namespace nilnul.stat.dist_.discrete_.nonfinite_
 {

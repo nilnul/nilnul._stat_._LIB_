@@ -1,4 +1,4 @@
-﻿using nilnul.num.real;
+using nilnul.num.real;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace nilnul.stat.dist_.borel_.pdf_._normal_
 		/// <exception cref="NotImplementedException"></exception>
 		static public  double _Cdf_01finite_2extNonneg(double mean, double divergence, double par)
 		{
-			return  normal_._std_.Cdf4dbl.Singleton._op_0extNonneg(
+			return  borel_.pdfable_.normal_._std_.CdfByErf4Dbl.OfThousandth()._op_0extNonneg(
 				nilnul.num.real.of_.unary_._StdX._Standize_0anchor_1vessel(mean,divergence,par)
 				/// Math.Sqrt(2) // already done in <see cref="normal_._std_.Cdf4dbl.Singleton._op_0extNonneg"/>
 			);

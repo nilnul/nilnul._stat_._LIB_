@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.stat.theorem_
 {
+	/// <summary>
+	/// updating hypothetic probability with new evidence;
+	/// </summary>
 	 class Bayes
 	{
 		/// <summary>

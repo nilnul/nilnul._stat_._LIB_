@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -126,7 +126,7 @@ namespace nilnul.stat.dist_.borel_.pdfable_
 
 		public override double invert(double cdf)
 		{
-			nilnul.num.real.be_.nonneg_.leOne.VowDbl.Singleton.vow(cdf);
+			nilnul.num.real.be_.nonneg_.leOne.Vow4dbl.Singleton.vow(cdf);
 			//if U is uniform on (0, 1), then so is 1 − U. 
 			return -Math.Log(
 				1-cdf

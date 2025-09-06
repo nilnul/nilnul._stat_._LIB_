@@ -1,4 +1,5 @@
-﻿namespace nilnul.stat.dist_.borel
+namespace nilnul.stat.dist_.borel
 {
 	public interface IVariance { }
+
 }

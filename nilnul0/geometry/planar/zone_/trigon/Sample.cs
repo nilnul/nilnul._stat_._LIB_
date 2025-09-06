@@ -1,4 +1,4 @@
-﻿using nilnul.geometry.planar.cycle_.gon_.tetra_;
+using nilnul.geometry.planar.cycle_.gon_.quad_;
 using nilnul.geometry.planar.zone_;
 //using nilnul.geometry.planar.zone_.polygon_.tetra_;
 using System;
